@@ -3,6 +3,8 @@ ClassicHate is a Classic Minecraft-like custom client compatible with CSP and CP
 Idea by Ludinko23
 
 How to build:
-`g++ -c *.cpp`
-`g++ *.o -o classichate`
+```
+g++ -c *.c
+g++ *.o -o classichate
+```
 (I have no clue.)
