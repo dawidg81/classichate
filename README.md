@@ -4,13 +4,11 @@ Idea by Ludinko23
 
 How to build for Linux:
 ```
-cd src/
 make linux
 ```
 
 How to build for Windows:
 ```
-cd src/
 make mingw
 ```
 
