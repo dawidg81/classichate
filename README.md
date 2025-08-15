@@ -85,3 +85,4 @@ _type1.c:21:10: fatal error: 'freetype/ft2build.h' file not found
       |          ^~~~~~~~~~~~~~~~~~~~~
 1 error generated.
 ```
+(Nothing weird in the errors, it is just not an Android application)
