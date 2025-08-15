@@ -9,6 +9,7 @@ g++ *.o -o classichate
 ```
 (I have no clue.)
 
+<<<<<<< HEAD
 Please be aware of these compilation errors if you are building from source in Android with architecture aarch64:
 ```
 Graphics_GL2.c:13:10: fatal error: '../misc/opengl/GLCommon.h' file not found
@@ -86,3 +87,7 @@ _type1.c:21:10: fatal error: 'freetype/ft2build.h' file not found
 1 error generated.
 ```
 (Nothing weird in the errors, it is just not an Android application)
+=======
+To build for Android, go to android directory and exdcut
+./gradlew
+>>>>>>> f5747fd (Added android version)
