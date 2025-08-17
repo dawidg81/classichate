@@ -10,12 +10,12 @@ Copyright 2014-2025 ClassiCube | Licensed under BSD-3
 #define GAME_API_VER 1
 
 #if defined CC_BUILD_WEB
-#define GAME_APP_ALT   "ClassiCube 1.3.7 web mobile"
-#define GAME_APP_NAME  "ClassiCube 1.3.7 web"
-#define GAME_APP_TITLE "ClassiCube"
+#define GAME_APP_ALT   "Classi%cHATE%e v1 Web Mobile%f"
+#define GAME_APP_NAME  "Classi%cHATE%e v1 Web%f"
+#define GAME_APP_TITLE "ClassiHATE v1"
 #else
-#define GAME_APP_NAME  "ClassiCube 1.3.7"
-#define GAME_APP_TITLE "ClassiCube 1.3.7"
+#define GAME_APP_NAME  "Classi%cHATE%e v1%f"
+#define GAME_APP_TITLE "ClassiHATE v1"
 #endif
 
 /* Max number of characters strings can have. */
