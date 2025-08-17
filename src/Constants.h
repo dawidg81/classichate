@@ -10,12 +10,12 @@ Copyright 2014-2025 ClassiCube | Licensed under BSD-3
 #define GAME_API_VER 1
 
 #if defined CC_BUILD_WEB
-#define GAME_APP_ALT   "Classi%cHATE%e v1 Web Mobile%f"
-#define GAME_APP_NAME  "Classi%cHATE%e v1 Web%f"
-#define GAME_APP_TITLE "ClassiHATE v1"
+#define GAME_APP_ALT   "Classic%cHATE%e v1 Web Mobile%f"
+#define GAME_APP_NAME  "Classic%cHATE%e v1 Web%f"
+#define GAME_APP_TITLE "ClassicHATE v1"
 #else
-#define GAME_APP_NAME  "Classi%cHATE%e v1%f"
-#define GAME_APP_TITLE "ClassiHATE v1"
+#define GAME_APP_NAME  "Classic%cHATE%e v1%f"
+#define GAME_APP_TITLE "ClassicHATE v1"
 #endif
 
 /* Max number of characters strings can have. */
@@ -76,3 +76,4 @@ enum SKIN_TYPE { SKIN_64x32, SKIN_64x64, SKIN_64x64_SLIM, SKIN_INVALID = 0xF0 };
 
 #define DEFAULT_USERNAME "Singleplayer"
 #endif
+
