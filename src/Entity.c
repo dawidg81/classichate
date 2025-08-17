@@ -24,8 +24,8 @@
 #include "EntityRenderers.h"
 #include "Protocol.h"
 
-const char* const NameMode_Names[NAME_MODE_COUNT]   = { "None", "Hovered", "All", "AllHovered", "AllUnscaled" };
-const char* const ShadowMode_Names[SHADOW_MODE_COUNT] = { "None", "SnapToBlock", "Circle", "CircleAll" };
+const char* const NameMode_Names[NAME_MODE_COUNT]   = { "No names! Where is your friends?", "Only when pointing", "Everything!", "AllHovered", "MY EYES!!!" };
+const char* const ShadowMode_Names[SHADOW_MODE_COUNT] = { "No shadows...?", "Weird black thingy under your foots", "Circular  Pixular", "Everyone are realistic" };
 
 
 /*########################################################################################################################*
@@ -39,11 +39,11 @@ static PackedCol Entity_GetColor(struct Entity* e) {
 
 void Entity_Init(struct Entity* e) {
 	static const cc_string model = String_FromConst("humanoid");
-	Vec3_Set(e->ModelScale, 1,1,1);
+	Vec3_Set(e->ModelScale, 2,2,2);
 	e->Flags      = ENTITY_FLAG_HAS_MODELVB;
-	e->uScale     = 1.0f;
-	e->vScale     = 1.0f;
-	e->PushStrength = 1.0f;
+	e->uScale     = 2.0f;
+	e->vScale     = 2.0f;
+	e->PushStrength = 0.0f;
 	e->_skinReqID = 0;
 	e->SkinRaw[0] = '\0';
 	e->NameRaw[0] = '\0';
@@ -332,7 +332,7 @@ static cc_result ApplySkin(struct Entity* e, struct Bitmap* bmp, struct Stream* 
 	e->SkinType = Utils_CalcSkinType(bmp);
 
 	if (!Gfx_CheckTextureSize(bmp->width, bmp->height, 0)) {
-		Chat_Add1("&cSkin %s is too large", skin);
+		Chat_Add1("&cEhem, sorry sir, your SUPER DUPER EPIC skin %s is too large", skin);
 	} else {
 		if (e->Model->flags & MODEL_FLAG_CLEAR_HAT)
 			Entity_ClearHat(bmp, e->SkinType);
@@ -653,8 +653,8 @@ static void LocalPlayer_HandleInput(struct LocalPlayer* p, float* xMoving, float
 	for (input = sources_head; input; input = input->next) {
 		input->GetMovement(p, xMoving, zMoving);
 	}
-	*xMoving *= 0.98f;
-	*zMoving *= 0.98f;
+	*xMoving *= 2; //0.98f
+	*zMoving *= 2;
 
 	if (hacks->WOMStyleHacks && hacks->Enabled && hacks->CanNoclip) {
 		if (hacks->Noclip) {
@@ -863,7 +863,7 @@ static cc_bool LocalPlayer_HandleRespawn(int key, struct InputDevice* device) {
 		return true;
 	} else if (!p->_warnedRespawn) {
 		p->_warnedRespawn = true;
-		if (hackPermMsgs) Chat_AddRaw("&cRespawning is currently disabled");
+		if (hackPermMsgs) Chat_AddRaw("&cOh no, you can not respawn, sir!");
 	}
 	return false;
 }
@@ -875,7 +875,7 @@ static cc_bool LocalPlayer_HandleSetSpawn(int key, struct InputDevice* device) {
 	if (p->Hacks.CanRespawn) {
 
 		if (!p->Hacks.CanNoclip && !p->Base.OnGround) {
-			Chat_AddRaw("&cCannot set spawn midair when noclip is disabled");
+			Chat_AddRaw("&cThis dream won't come true, you can't respawn in the air.");
 			return false;
 		}
 
@@ -907,7 +907,7 @@ static cc_bool LocalPlayer_HandleFly(int key, struct InputDevice* device) {
 		return true;
 	} else if (!p->_warnedFly) {
 		p->_warnedFly = true;
-		if (hackPermMsgs) Chat_AddRaw("&cFlying is currently disabled");
+		if (hackPermMsgs) Chat_AddRaw("&cYes, I know, everyone wants to fly...");
 	}
 	return false;
 }
@@ -925,7 +925,7 @@ static cc_bool LocalPlayer_HandleNoclip(int key, struct InputDevice* device) {
 		return true;
 	} else if (!p->_warnedNoclip) {
 		p->_warnedNoclip = true;
-		if (hackPermMsgs) Chat_AddRaw("&cNoclip is currently disabled");
+		if (hackPermMsgs) Chat_AddRaw("&cAyo sir what are you tryna do ._.?");
 	}
 	return false;
 }
@@ -1039,7 +1039,7 @@ cc_bool LocalPlayer_CheckCanZoom(struct LocalPlayer* p) {
 
 	if (!p->_warnedZoom) {
 		p->_warnedZoom = true;
-		if (hackPermMsgs) Chat_AddRaw("&cCannot zoom camera out as flying is currently disabled");
+		if (hackPermMsgs) Chat_AddRaw("&cCannot zoom zoom bcuz flying not there.");
 	}
 	return false;
 }

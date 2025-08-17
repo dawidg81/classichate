@@ -40,31 +40,31 @@ static const cc_uint8 v4_hotbar[INVENTORY_BLOCKS_PER_HOTBAR] = {
 };
 
 static const struct GameVersion version_cpe  = { 
-	"0.30",     true, VERSION_CPE, 
+	"ch v0",     true, VERSION_CPE, 
 	PROTOCOL_0030, BLOCK_MAX_CPE, 
 	10, sizeof(v7_inventory), NULL,         v7_hotbar,
 	"texpacks/default.zip"
 };
 static const struct GameVersion version_0030 = {
-	"0.30",    false, VERSION_0030,
+	"ch v0-classic",    false, VERSION_0030,
 	PROTOCOL_0030, BLOCK_OBSIDIAN, 
 	 9, sizeof(v7_inventory), v7_inventory, v7_hotbar,
 	 "texpacks/default.zip"
 };
 static const struct GameVersion version_0023 = {
-	"0.0.23a", false, VERSION_0023,
+	"older3", false, VERSION_0023,
 	PROTOCOL_0020, BLOCK_GOLD, 
 	 8, sizeof(v6_inventory), v6_inventory, v6_hotbar,
 	 "texpacks/default_0023.zip"
 };
 static const struct GameVersion version_0019 = {
-	"0.0.19a", false, VERSION_0019,
+	"older2", false, VERSION_0019,
 	PROTOCOL_0019, BLOCK_GLASS, 
 	 6, sizeof(v5_inventory), v5_inventory, v5_hotbar,
 	 "texpacks/default_0023.zip"
 };
 static const struct GameVersion version_0017 = {
-	"0.0.17a", false, VERSION_0017,
+	"ancient", false, VERSION_0017,
 	PROTOCOL_0017, BLOCK_LEAVES, 
 	 6, sizeof(v4_inventory), v4_inventory, v4_hotbar,
 	 "texpacks/default_0023.zip"

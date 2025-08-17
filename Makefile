@@ -12,7 +12,7 @@ CFLAGS  = -pipe -fno-math-errno -Werror -Wno-error=missing-braces -Wno-error=str
 # Flags passed to the linker
 LDFLAGS = -g -rdynamic
 # Name of the main executable
-ENAME   = ClassiCube
+ENAME   = ClassicHate
 # Name of the final target file
 # (usually this is the executable, but e.g. is the app bundle on macOS)
 TARGET := $(ENAME)

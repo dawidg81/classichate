@@ -1,0 +1,1225 @@
+[
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/IsometricDrawer.c.o   -c /home/dawid_g/classichate/src/IsometricDrawer.c",
+  "file": "/home/dawid_g/classichate/src/IsometricDrawer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Builder.c.o   -c /home/dawid_g/classichate/src/Builder.c",
+  "file": "/home/dawid_g/classichate/src/Builder.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/ExtMath.c.o   -c /home/dawid_g/classichate/src/ExtMath.c",
+  "file": "/home/dawid_g/classichate/src/ExtMath.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_ftbitmap.c.o   -c /home/dawid_g/classichate/src/_ftbitmap.c",
+  "file": "/home/dawid_g/classichate/src/_ftbitmap.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Utils.c.o   -c /home/dawid_g/classichate/src/Utils.c",
+  "file": "/home/dawid_g/classichate/src/Utils.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Camera.c.o   -c /home/dawid_g/classichate/src/Camera.c",
+  "file": "/home/dawid_g/classichate/src/Camera.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Game.c.o   -c /home/dawid_g/classichate/src/Game.c",
+  "file": "/home/dawid_g/classichate/src/Game.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/GameVersion.c.o   -c /home/dawid_g/classichate/src/GameVersion.c",
+  "file": "/home/dawid_g/classichate/src/GameVersion.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Window_Android.c.o   -c /home/dawid_g/classichate/src/Window_Android.c",
+  "file": "/home/dawid_g/classichate/src/Window_Android.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_ftbase.c.o   -c /home/dawid_g/classichate/src/_ftbase.c",
+  "file": "/home/dawid_g/classichate/src/_ftbase.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Graphics_GL2.c.o   -c /home/dawid_g/classichate/src/Graphics_GL2.c",
+  "file": "/home/dawid_g/classichate/src/Graphics_GL2.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Deflate.c.o   -c /home/dawid_g/classichate/src/Deflate.c",
+  "file": "/home/dawid_g/classichate/src/Deflate.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_cff.c.o   -c /home/dawid_g/classichate/src/_cff.c",
+  "file": "/home/dawid_g/classichate/src/_cff.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_ftsynth.c.o   -c /home/dawid_g/classichate/src/_ftsynth.c",
+  "file": "/home/dawid_g/classichate/src/_ftsynth.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/String.c.o   -c /home/dawid_g/classichate/src/String.c",
+  "file": "/home/dawid_g/classichate/src/String.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/LWidgets.c.o   -c /home/dawid_g/classichate/src/LWidgets.c",
+  "file": "/home/dawid_g/classichate/src/LWidgets.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Options.c.o   -c /home/dawid_g/classichate/src/Options.c",
+  "file": "/home/dawid_g/classichate/src/Options.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Drawer2D.c.o   -c /home/dawid_g/classichate/src/Drawer2D.c",
+  "file": "/home/dawid_g/classichate/src/Drawer2D.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Server.c.o   -c /home/dawid_g/classichate/src/Server.c",
+  "file": "/home/dawid_g/classichate/src/Server.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Entity.c.o   -c /home/dawid_g/classichate/src/Entity.c",
+  "file": "/home/dawid_g/classichate/src/Entity.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Drawer.c.o   -c /home/dawid_g/classichate/src/Drawer.c",
+  "file": "/home/dawid_g/classichate/src/Drawer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Vorbis.c.o   -c /home/dawid_g/classichate/src/Vorbis.c",
+  "file": "/home/dawid_g/classichate/src/Vorbis.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Protocol.c.o   -c /home/dawid_g/classichate/src/Protocol.c",
+  "file": "/home/dawid_g/classichate/src/Protocol.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/World.c.o   -c /home/dawid_g/classichate/src/World.c",
+  "file": "/home/dawid_g/classichate/src/World.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/SelOutlineRenderer.c.o   -c /home/dawid_g/classichate/src/SelOutlineRenderer.c",
+  "file": "/home/dawid_g/classichate/src/SelOutlineRenderer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Platform_Posix.c.o   -c /home/dawid_g/classichate/src/Platform_Posix.c",
+  "file": "/home/dawid_g/classichate/src/Platform_Posix.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Platform_Android.c.o   -c /home/dawid_g/classichate/src/Platform_Android.c",
+  "file": "/home/dawid_g/classichate/src/Platform_Android.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/LScreens.c.o   -c /home/dawid_g/classichate/src/LScreens.c",
+  "file": "/home/dawid_g/classichate/src/LScreens.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_truetype.c.o   -c /home/dawid_g/classichate/src/_truetype.c",
+  "file": "/home/dawid_g/classichate/src/_truetype.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_ftglyph.c.o   -c /home/dawid_g/classichate/src/_ftglyph.c",
+  "file": "/home/dawid_g/classichate/src/_ftglyph.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Model.c.o   -c /home/dawid_g/classichate/src/Model.c",
+  "file": "/home/dawid_g/classichate/src/Model.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_autofit.c.o   -c /home/dawid_g/classichate/src/_autofit.c",
+  "file": "/home/dawid_g/classichate/src/_autofit.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Vectors.c.o   -c /home/dawid_g/classichate/src/Vectors.c",
+  "file": "/home/dawid_g/classichate/src/Vectors.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/HeldBlockRenderer.c.o   -c /home/dawid_g/classichate/src/HeldBlockRenderer.c",
+  "file": "/home/dawid_g/classichate/src/HeldBlockRenderer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Inventory.c.o   -c /home/dawid_g/classichate/src/Inventory.c",
+  "file": "/home/dawid_g/classichate/src/Inventory.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Launcher.c.o   -c /home/dawid_g/classichate/src/Launcher.c",
+  "file": "/home/dawid_g/classichate/src/Launcher.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Block.c.o   -c /home/dawid_g/classichate/src/Block.c",
+  "file": "/home/dawid_g/classichate/src/Block.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/LWeb.c.o   -c /home/dawid_g/classichate/src/LWeb.c",
+  "file": "/home/dawid_g/classichate/src/LWeb.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Stream.c.o   -c /home/dawid_g/classichate/src/Stream.c",
+  "file": "/home/dawid_g/classichate/src/Stream.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Lighting.c.o   -c /home/dawid_g/classichate/src/Lighting.c",
+  "file": "/home/dawid_g/classichate/src/Lighting.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Resources.c.o   -c /home/dawid_g/classichate/src/Resources.c",
+  "file": "/home/dawid_g/classichate/src/Resources.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/PackedCol.c.o   -c /home/dawid_g/classichate/src/PackedCol.c",
+  "file": "/home/dawid_g/classichate/src/PackedCol.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Screens.c.o   -c /home/dawid_g/classichate/src/Screens.c",
+  "file": "/home/dawid_g/classichate/src/Screens.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Formats.c.o   -c /home/dawid_g/classichate/src/Formats.c",
+  "file": "/home/dawid_g/classichate/src/Formats.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_sfnt.c.o   -c /home/dawid_g/classichate/src/_sfnt.c",
+  "file": "/home/dawid_g/classichate/src/_sfnt.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Bitmap.c.o   -c /home/dawid_g/classichate/src/Bitmap.c",
+  "file": "/home/dawid_g/classichate/src/Bitmap.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/EntityComponents.c.o   -c /home/dawid_g/classichate/src/EntityComponents.c",
+  "file": "/home/dawid_g/classichate/src/EntityComponents.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_pshinter.c.o   -c /home/dawid_g/classichate/src/_pshinter.c",
+  "file": "/home/dawid_g/classichate/src/_pshinter.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Http_Worker.c.o   -c /home/dawid_g/classichate/src/Http_Worker.c",
+  "file": "/home/dawid_g/classichate/src/Http_Worker.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/MapRenderer.c.o   -c /home/dawid_g/classichate/src/MapRenderer.c",
+  "file": "/home/dawid_g/classichate/src/MapRenderer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Audio.c.o   -c /home/dawid_g/classichate/src/Audio.c",
+  "file": "/home/dawid_g/classichate/src/Audio.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_ftinit.c.o   -c /home/dawid_g/classichate/src/_ftinit.c",
+  "file": "/home/dawid_g/classichate/src/_ftinit.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Event.c.o   -c /home/dawid_g/classichate/src/Event.c",
+  "file": "/home/dawid_g/classichate/src/Event.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Logger.c.o   -c /home/dawid_g/classichate/src/Logger.c",
+  "file": "/home/dawid_g/classichate/src/Logger.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Widgets.c.o   -c /home/dawid_g/classichate/src/Widgets.c",
+  "file": "/home/dawid_g/classichate/src/Widgets.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/TexturePack.c.o   -c /home/dawid_g/classichate/src/TexturePack.c",
+  "file": "/home/dawid_g/classichate/src/TexturePack.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Menus.c.o   -c /home/dawid_g/classichate/src/Menus.c",
+  "file": "/home/dawid_g/classichate/src/Menus.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/BlockPhysics.c.o   -c /home/dawid_g/classichate/src/BlockPhysics.c",
+  "file": "/home/dawid_g/classichate/src/BlockPhysics.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_psmodule.c.o   -c /home/dawid_g/classichate/src/_psmodule.c",
+  "file": "/home/dawid_g/classichate/src/_psmodule.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Chat.c.o   -c /home/dawid_g/classichate/src/Chat.c",
+  "file": "/home/dawid_g/classichate/src/Chat.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Gui.c.o   -c /home/dawid_g/classichate/src/Gui.c",
+  "file": "/home/dawid_g/classichate/src/Gui.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/AxisLinesRenderer.c.o   -c /home/dawid_g/classichate/src/AxisLinesRenderer.c",
+  "file": "/home/dawid_g/classichate/src/AxisLinesRenderer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Picking.c.o   -c /home/dawid_g/classichate/src/Picking.c",
+  "file": "/home/dawid_g/classichate/src/Picking.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_type1.c.o   -c /home/dawid_g/classichate/src/_type1.c",
+  "file": "/home/dawid_g/classichate/src/_type1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_smooth.c.o   -c /home/dawid_g/classichate/src/_smooth.c",
+  "file": "/home/dawid_g/classichate/src/_smooth.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/_psaux.c.o   -c /home/dawid_g/classichate/src/_psaux.c",
+  "file": "/home/dawid_g/classichate/src/_psaux.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Generator.c.o   -c /home/dawid_g/classichate/src/Generator.c",
+  "file": "/home/dawid_g/classichate/src/Generator.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Input.c.o   -c /home/dawid_g/classichate/src/Input.c",
+  "file": "/home/dawid_g/classichate/src/Input.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Particle.c.o   -c /home/dawid_g/classichate/src/Particle.c",
+  "file": "/home/dawid_g/classichate/src/Particle.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Physics.c.o   -c /home/dawid_g/classichate/src/Physics.c",
+  "file": "/home/dawid_g/classichate/src/Physics.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/SelectionBox.c.o   -c /home/dawid_g/classichate/src/SelectionBox.c",
+  "file": "/home/dawid_g/classichate/src/SelectionBox.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/EnvRenderer.c.o   -c /home/dawid_g/classichate/src/EnvRenderer.c",
+  "file": "/home/dawid_g/classichate/src/EnvRenderer.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Animations.c.o   -c /home/dawid_g/classichate/src/Animations.c",
+  "file": "/home/dawid_g/classichate/src/Animations.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/LBackend.c.o   -c /home/dawid_g/classichate/src/LBackend.c",
+  "file": "/home/dawid_g/classichate/src/LBackend.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/SystemFonts.c.o   -c /home/dawid_g/classichate/src/SystemFonts.c",
+  "file": "/home/dawid_g/classichate/src/SystemFonts.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Commands.c.o   -c /home/dawid_g/classichate/src/Commands.c",
+  "file": "/home/dawid_g/classichate/src/Commands.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/EntityRenderers.c.o   -c /home/dawid_g/classichate/src/EntityRenderers.c",
+  "file": "/home/dawid_g/classichate/src/EntityRenderers.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Audio_SLES.c.o   -c /home/dawid_g/classichate/src/Audio_SLES.c",
+  "file": "/home/dawid_g/classichate/src/Audio_SLES.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/TouchUI.c.o   -c /home/dawid_g/classichate/src/TouchUI.c",
+  "file": "/home/dawid_g/classichate/src/TouchUI.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/LBackend_Android.c.o   -c /home/dawid_g/classichate/src/LBackend_Android.c",
+  "file": "/home/dawid_g/classichate/src/LBackend_Android.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/InputHandler.c.o   -c /home/dawid_g/classichate/src/InputHandler.c",
+  "file": "/home/dawid_g/classichate/src/InputHandler.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/MenuOptions.c.o   -c /home/dawid_g/classichate/src/MenuOptions.c",
+  "file": "/home/dawid_g/classichate/src/MenuOptions.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/FancyLighting.c.o   -c /home/dawid_g/classichate/src/FancyLighting.c",
+  "file": "/home/dawid_g/classichate/src/FancyLighting.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Queue.c.o   -c /home/dawid_g/classichate/src/Queue.c",
+  "file": "/home/dawid_g/classichate/src/Queue.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/SSL.c.o   -c /home/dawid_g/classichate/src/SSL.c",
+  "file": "/home/dawid_g/classichate/src/SSL.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/src/Certs.c.o   -c /home/dawid_g/classichate/src/Certs.c",
+  "file": "/home/dawid_g/classichate/src/Certs.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_big_cbcdec.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_big_cbcdec.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_big_cbcdec.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_big_cbcenc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_big_cbcenc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_big_cbcenc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_big_ctr.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_big_ctr.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_big_ctr.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_big_ctrcbc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_big_ctrcbc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_big_ctrcbc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_big_dec.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_big_dec.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_big_dec.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_big_enc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_big_enc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_big_enc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_common.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_common.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_common.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aesctr_drbg.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aesctr_drbg.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aesctr_drbg.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_x86ni.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_x86ni.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_x86ni.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_cbcdec.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_x86ni_cbcdec.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_cbcdec.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_cbcenc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_x86ni_cbcenc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_cbcenc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_ctr.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_x86ni_ctr.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_ctr.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_ctrcbc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/aes_x86ni_ctrcbc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/aes_x86ni_ctrcbc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/asn1enc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/asn1enc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/asn1enc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ccm.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ccm.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ccm.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ccopy.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ccopy.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ccopy.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/chacha20_ct.c.o   -c /home/dawid_g/classichate/third_party/bearssl/chacha20_ct.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/chacha20_ct.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/chacha20_sse2.c.o   -c /home/dawid_g/classichate/third_party/bearssl/chacha20_sse2.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/chacha20_sse2.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/dec32be.c.o   -c /home/dawid_g/classichate/third_party/bearssl/dec32be.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/dec32be.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/dec32le.c.o   -c /home/dawid_g/classichate/third_party/bearssl/dec32le.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/dec32le.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/dec64be.c.o   -c /home/dawid_g/classichate/third_party/bearssl/dec64be.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/dec64be.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/dec64le.c.o   -c /home/dawid_g/classichate/third_party/bearssl/dec64le.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/dec64le.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/dig_oid.c.o   -c /home/dawid_g/classichate/third_party/bearssl/dig_oid.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/dig_oid.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/dig_size.c.o   -c /home/dawid_g/classichate/third_party/bearssl/dig_size.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/dig_size.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_all_m31.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_all_m31.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_all_m31.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_c25519_i31.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_c25519_i31.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_c25519_i31.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_c25519_m31.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_c25519_m31.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_c25519_m31.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_c25519_m62.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_c25519_m62.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_c25519_m62.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_c25519_m64.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_c25519_m64.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_c25519_m64.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_curve25519.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_curve25519.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_curve25519.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_default.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_default.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_default.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ecdsa_atr.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ecdsa_atr.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ecdsa_atr.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ecdsa_default_vrfy_asn1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ecdsa_default_vrfy_asn1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ecdsa_default_vrfy_asn1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ecdsa_default_vrfy_raw.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ecdsa_default_vrfy_raw.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ecdsa_default_vrfy_raw.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_bits.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_bits.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_bits.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_vrfy_asn1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_vrfy_asn1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_vrfy_asn1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_vrfy_raw.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_vrfy_raw.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ecdsa_i31_vrfy_raw.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_p256_m31.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_p256_m31.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_p256_m31.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_p256_m62.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_p256_m62.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_p256_m62.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_p256_m64.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_p256_m64.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_p256_m64.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_prime_i31.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_prime_i31.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_prime_i31.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_secp256r1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_secp256r1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_secp256r1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_secp384r1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_secp384r1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_secp384r1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ec_secp521r1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ec_secp521r1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ec_secp521r1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/enc32be.c.o   -c /home/dawid_g/classichate/third_party/bearssl/enc32be.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/enc32be.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/enc32le.c.o   -c /home/dawid_g/classichate/third_party/bearssl/enc32le.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/enc32le.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/enc64be.c.o   -c /home/dawid_g/classichate/third_party/bearssl/enc64be.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/enc64be.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/enc64le.c.o   -c /home/dawid_g/classichate/third_party/bearssl/enc64le.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/enc64le.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/gcm.c.o   -c /home/dawid_g/classichate/third_party/bearssl/gcm.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/gcm.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ghash_ctmul64.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ghash_ctmul64.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ghash_ctmul64.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ghash_ctmul.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ghash_ctmul.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ghash_ctmul.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ghash_pclmul.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ghash_pclmul.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ghash_pclmul.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/hmac.c.o   -c /home/dawid_g/classichate/third_party/bearssl/hmac.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/hmac.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/hmac_ct.c.o   -c /home/dawid_g/classichate/third_party/bearssl/hmac_ct.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/hmac_ct.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/hmac_drbg.c.o   -c /home/dawid_g/classichate/third_party/bearssl/hmac_drbg.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/hmac_drbg.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_add.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_add.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_add.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_bitlen.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_bitlen.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_bitlen.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_decmod.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_decmod.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_decmod.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_decode.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_decode.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_decode.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_decred.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_decred.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_decred.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_encode.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_encode.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_encode.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_fmont.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_fmont.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_fmont.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_iszero.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_iszero.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_iszero.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_moddiv.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_moddiv.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_moddiv.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_modpow2.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_modpow2.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_modpow2.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_modpow.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_modpow.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_modpow.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_montmul.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_montmul.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_montmul.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_mulacc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_mulacc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_mulacc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_muladd.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_muladd.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_muladd.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_ninv31.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_ninv31.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_ninv31.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_reduce.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_reduce.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_reduce.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_rshift.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_rshift.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_rshift.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_sub.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_sub.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_sub.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i31_tmont.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i31_tmont.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i31_tmont.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i32_div32.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i32_div32.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i32_div32.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/i62_modpow2.c.o   -c /home/dawid_g/classichate/third_party/bearssl/i62_modpow2.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/i62_modpow2.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/md5.c.o   -c /home/dawid_g/classichate/third_party/bearssl/md5.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/md5.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/md5sha1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/md5sha1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/md5sha1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/multihash.c.o   -c /home/dawid_g/classichate/third_party/bearssl/multihash.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/multihash.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/poly1305_ctmul.c.o   -c /home/dawid_g/classichate/third_party/bearssl/poly1305_ctmul.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/poly1305_ctmul.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/poly1305_ctmulq.c.o   -c /home/dawid_g/classichate/third_party/bearssl/poly1305_ctmulq.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/poly1305_ctmulq.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/prf.c.o   -c /home/dawid_g/classichate/third_party/bearssl/prf.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/prf.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/prf_md5sha1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/prf_md5sha1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/prf_md5sha1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/prf_sha256.c.o   -c /home/dawid_g/classichate/third_party/bearssl/prf_sha256.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/prf_sha256.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/prf_sha384.c.o   -c /home/dawid_g/classichate/third_party/bearssl/prf_sha384.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/prf_sha384.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_default_pkcs1_vrfy.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_default_pkcs1_vrfy.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_default_pkcs1_vrfy.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_default_priv.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_default_priv.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_default_priv.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_default_pub.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_default_pub.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_default_pub.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_i31_pkcs1_vrfy.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_i31_pkcs1_vrfy.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_i31_pkcs1_vrfy.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_i31_priv.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_i31_priv.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_i31_priv.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_i31_pub.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_i31_pub.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_i31_pub.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_i62_pkcs1_vrfy.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_i62_pkcs1_vrfy.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_i62_pkcs1_vrfy.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_i62_priv.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_i62_priv.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_i62_priv.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_i62_pub.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_i62_pub.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_i62_pub.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/rsa_pkcs1_sig_unpad.c.o   -c /home/dawid_g/classichate/third_party/bearssl/rsa_pkcs1_sig_unpad.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/rsa_pkcs1_sig_unpad.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/sha1.c.o   -c /home/dawid_g/classichate/third_party/bearssl/sha1.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/sha1.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/sha2big.c.o   -c /home/dawid_g/classichate/third_party/bearssl/sha2big.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/sha2big.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/sha2small.c.o   -c /home/dawid_g/classichate/third_party/bearssl/sha2small.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/sha2small.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_client.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_client.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_client.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_client_default_rsapub.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_client_default_rsapub.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_client_default_rsapub.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_client_full.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_client_full.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_client_full.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aescbc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aescbc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aescbc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aesccm.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aesccm.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aesccm.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aesgcm.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aesgcm.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_aesgcm.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_chapol.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_chapol.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_chapol.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_ec.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_ec.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_ec.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_ecdsa.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_ecdsa.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_ecdsa.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_rsavrfy.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_rsavrfy.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_engine_default_rsavrfy.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_hashes.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_hashes.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_hashes.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_hs_client.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_hs_client.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_hs_client.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_io.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_io.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_io.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_rec_cbc.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_rec_cbc.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_rec_cbc.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_rec_ccm.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_rec_ccm.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_rec_ccm.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_rec_chapol.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_rec_chapol.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_rec_chapol.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/ssl_rec_gcm.c.o   -c /home/dawid_g/classichate/third_party/bearssl/ssl_rec_gcm.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/ssl_rec_gcm.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/x509_minimal.c.o   -c /home/dawid_g/classichate/third_party/bearssl/x509_minimal.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/x509_minimal.c"
+},
+
+{
+  "directory": "/home/dawid_g/classichate/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dclassicube_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/classicube.dir/home/dawid_g/classichate/third_party/bearssl/x509_minimal_full.c.o   -c /home/dawid_g/classichate/third_party/bearssl/x509_minimal_full.c",
+  "file": "/home/dawid_g/classichate/third_party/bearssl/x509_minimal_full.c"
+}
+]

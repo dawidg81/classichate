@@ -93,7 +93,7 @@ void Chat_SetLogName(const cc_string* name) {
 void Chat_DisableLogging(void) {
 	Chat_Logging = false;
 	lastLogYear  = -321;
-	Chat_AddRaw("&cDisabling chat logging");
+	Chat_AddRaw("&cThe history is being censored.");
 	CloseLogFile();
 }
 
@@ -149,7 +149,7 @@ static void OpenChatLog(struct cc_datetime* now) {
 	}
 
 	Chat_DisableLogging();
-	Chat_Add1("&cFailed to open a chat log file after %i tries, giving up", &i);	
+	Chat_Add1("&cFailed to open a chat log file after %i tries, bro i am unpluggin myself", &i);	
 }
 
 static void AppendChatLog(const cc_string* text) {
@@ -211,7 +211,7 @@ void Chat_AddOf(const cc_string* text, int msgType) {
 		/*  overflows and earlier chat messages start wrongly appearing instead */
 		if (Chat_Log.totalLength > 8388000) {
 			ClearChatLogs();
-			Chat_AddRaw("&cChat log cleared as it hit 8.3 million character limit");
+			Chat_AddRaw("&cChat log cleared as it hit 8.3 million character limit WHAT THE-");
 		}
 
 		/* StringsBuffer_Add will abort game if try to add string > 511 characters */

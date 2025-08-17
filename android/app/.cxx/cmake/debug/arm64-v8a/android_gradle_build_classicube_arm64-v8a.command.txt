@@ -1,0 +1,7 @@
+Executable : /home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a
+classicube
+jvmArgs : 
+

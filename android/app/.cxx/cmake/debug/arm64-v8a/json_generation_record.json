@@ -1,0 +1,404 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: arm64-v8a",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a/build_command.txt, will remove stale json folder",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a\u0027",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a\u0027",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/dawid_g/classichate/android/app\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/dawid_g/Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/dawid_g/Android/Sdk/ndk/20.0.5594570\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/dawid_g/Android/Sdk/ndk/20.0.5594570\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/dawid_g/classichate/android/app/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_STL\u003dc++_static\n-B/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/dawid_g/classichate/android/app\",\n  \"buildDirectory\": \"/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/dawid_g/Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003d/home/dawid_g/Android/Sdk/ndk/20.0.5594570\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/dawid_g/Android/Sdk/ndk/20.0.5594570\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/dawid_g/classichate/android/app/build/intermediates/cmake/debug/obj/arm64-v8a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_STL\\u003dc++_static\"\n  ]\n}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\"../../../Android/Sdk/ndk/20.0.5594570/build/cmake/platforms.cmake\",\"../../../Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/home/dawid_g/classichate/android/app\",\"type\":\"reply\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a\",\"name\":\"Project\",\"sourceDirectory\":\"/home/dawid_g/classichate/android/app\",\"targets\":[{\"artifacts\":[\"/home/dawid_g/classichate/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libclassicube.so\"],\"buildDirectory\":\"/home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"classicube_EXPORTS\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"../../src/IsometricDrawer.c\",\"../../src/Builder.c\",\"../../src/ExtMath.c\",\"../../src/_ftbitmap.c\",\"../../src/Utils.c\",\"../../src/Camera.c\",\"../../src/Game.c\",\"../../src/GameVersion.c\",\"../../src/Window_Android.c\",\"../../src/_ftbase.c\",\"../../src/Graphics_GL2.c\",\"../../src/Deflate.c\",\"../../src/_cff.c\",\"../../src/_ftsynth.c\",\"../../src/String.c\",\"../../src/LWidgets.c\",\"../../src/Options.c\",\"../../src/Drawer2D.c\",\"../../src/Server.c\",\"../../src/Entity.c\",\"../../src/Drawer.c\",\"../../src/Vorbis.c\",\"../../src/Protocol.c\",\"../../src/World.c\",\"../../src/SelOutlineRenderer.c\",\"../../src/Platform_Posix.c\",\"../../src/Platform_Android.c\",\"../../src/LScreens.c\",\"../../src/_truetype.c\",\"../../src/_ftglyph.c\",\"../../src/Model.c\",\"../../src/_autofit.c\",\"../../src/Vectors.c\",\"../../src/HeldBlockRenderer.c\",\"../../src/Inventory.c\",\"../../src/Launcher.c\",\"../../src/Block.c\",\"../../src/LWeb.c\",\"../../src/Stream.c\",\"../../src/Lighting.c\",\"../../src/Resources.c\",\"../../src/PackedCol.c\",\"../../src/Screens.c\",\"../../src/Formats.c\",\"../../src/_sfnt.c\",\"../../src/Bitmap.c\",\"../../src/EntityComponents.c\",\"../../src/_pshinter.c\",\"../../src/Http_Worker.c\",\"../../src/MapRenderer.c\",\"../../src/Audio.c\",\"../../src/_ftinit.c\",\"../../src/Event.c\",\"../../src/Logger.c\",\"../../src/Widgets.c\",\"../../src/TexturePack.c\",\"../../src/Menus.c\",\"../../src/BlockPhysics.c\",\"../../src/_psmodule.c\",\"../../src/Chat.c\",\"../../src/Gui.c\",\"../../src/AxisLinesRenderer.c\",\"../../src/Picking.c\",\"../../src/_type1.c\",\"../../src/_smooth.c\",\"../../src/_psaux.c\",\"../../src/Generator.c\",\"../../src/Input.c\",\"../../src/Particle.c\",\"../../src/Physics.c\",\"../../src/SelectionBox.c\",\"../../src/EnvRenderer.c\",\"../../src/Animations.c\",\"../../src/LBackend.c\",\"../../src/SystemFonts.c\",\"../../src/Commands.c\",\"../../src/EntityRenderers.c\",\"../../src/Audio_SLES.c\",\"../../src/TouchUI.c\",\"../../src/LBackend_Android.c\",\"../../src/InputHandler.c\",\"../../src/MenuOptions.c\",\"../../src/FancyLighting.c\",\"../../src/Queue.c\",\"../../src/SSL.c\",\"../../src/Certs.c\",\"../../third_party/bearssl/aes_big_cbcdec.c\",\"../../third_party/bearssl/aes_big_cbcenc.c\",\"../../third_party/bearssl/aes_big_ctr.c\",\"../../third_party/bearssl/aes_big_ctrcbc.c\",\"../../third_party/bearssl/aes_big_dec.c\",\"../../third_party/bearssl/aes_big_enc.c\",\"../../third_party/bearssl/aes_common.c\",\"../../third_party/bearssl/aesctr_drbg.c\",\"../../third_party/bearssl/aes_x86ni.c\",\"../../third_party/bearssl/aes_x86ni_cbcdec.c\",\"../../third_party/bearssl/aes_x86ni_cbcenc.c\",\"../../third_party/bearssl/aes_x86ni_ctr.c\",\"../../third_party/bearssl/aes_x86ni_ctrcbc.c\",\"../../third_party/bearssl/asn1enc.c\",\"../../third_party/bearssl/ccm.c\",\"../../third_party/bearssl/ccopy.c\",\"../../third_party/bearssl/chacha20_ct.c\",\"../../third_party/bearssl/chacha20_sse2.c\",\"../../third_party/bearssl/dec32be.c\",\"../../third_party/bearssl/dec32le.c\",\"../../third_party/bearssl/dec64be.c\",\"../../third_party/bearssl/dec64le.c\",\"../../third_party/bearssl/dig_oid.c\",\"../../third_party/bearssl/dig_size.c\",\"../../third_party/bearssl/ec_all_m31.c\",\"../../third_party/bearssl/ec_c25519_i31.c\",\"../../third_party/bearssl/ec_c25519_m31.c\",\"../../third_party/bearssl/ec_c25519_m62.c\",\"../../third_party/bearssl/ec_c25519_m64.c\",\"../../third_party/bearssl/ec_curve25519.c\",\"../../third_party/bearssl/ec_default.c\",\"../../third_party/bearssl/ecdsa_atr.c\",\"../../third_party/bearssl/ecdsa_default_vrfy_asn1.c\",\"../../third_party/bearssl/ecdsa_default_vrfy_raw.c\",\"../../third_party/bearssl/ecdsa_i31_bits.c\",\"../../third_party/bearssl/ecdsa_i31_vrfy_asn1.c\",\"../../third_party/bearssl/ecdsa_i31_vrfy_raw.c\",\"../../third_party/bearssl/ec_p256_m31.c\",\"../../third_party/bearssl/ec_p256_m62.c\",\"../../third_party/bearssl/ec_p256_m64.c\",\"../../third_party/bearssl/ec_prime_i31.c\",\"../../third_party/bearssl/ec_secp256r1.c\",\"../../third_party/bearssl/ec_secp384r1.c\",\"../../third_party/bearssl/ec_secp521r1.c\",\"../../third_party/bearssl/enc32be.c\",\"../../third_party/bearssl/enc32le.c\",\"../../third_party/bearssl/enc64be.c\",\"../../third_party/bearssl/enc64le.c\",\"../../third_party/bearssl/gcm.c\",\"../../third_party/bearssl/ghash_ctmul64.c\",\"../../third_party/bearssl/ghash_ctmul.c\",\"../../third_party/bearssl/ghash_pclmul.c\",\"../../third_party/bearssl/hmac.c\",\"../../third_party/bearssl/hmac_ct.c\",\"../../third_party/bearssl/hmac_drbg.c\",\"../../third_party/bearssl/i31_add.c\",\"../../third_party/bearssl/i31_bitlen.c\",\"../../third_party/bearssl/i31_decmod.c\",\"../../third_party/bearssl/i31_decode.c\",\"../../third_party/bearssl/i31_decred.c\",\"../../third_party/bearssl/i31_encode.c\",\"../../third_party/bearssl/i31_fmont.c\",\"../../third_party/bearssl/i31_iszero.c\",\"../../third_party/bearssl/i31_moddiv.c\",\"../../third_party/bearssl/i31_modpow2.c\",\"../../third_party/bearssl/i31_modpow.c\",\"../../third_party/bearssl/i31_montmul.c\",\"../../third_party/bearssl/i31_mulacc.c\",\"../../third_party/bearssl/i31_muladd.c\",\"../../third_party/bearssl/i31_ninv31.c\",\"../../third_party/bearssl/i31_reduce.c\",\"../../third_party/bearssl/i31_rshift.c\",\"../../third_party/bearssl/i31_sub.c\",\"../../third_party/bearssl/i31_tmont.c\",\"../../third_party/bearssl/i32_div32.c\",\"../../third_party/bearssl/i62_modpow2.c\",\"../../third_party/bearssl/md5.c\",\"../../third_party/bearssl/md5sha1.c\",\"../../third_party/bearssl/multihash.c\",\"../../third_party/bearssl/poly1305_ctmul.c\",\"../../third_party/bearssl/poly1305_ctmulq.c\",\"../../third_party/bearssl/prf.c\",\"../../third_party/bearssl/prf_md5sha1.c\",\"../../third_party/bearssl/prf_sha256.c\",\"../../third_party/bearssl/prf_sha384.c\",\"../../third_party/bearssl/rsa_default_pkcs1_vrfy.c\",\"../../third_party/bearssl/rsa_default_priv.c\",\"../../third_party/bearssl/rsa_default_pub.c\",\"../../third_party/bearssl/rsa_i31_pkcs1_vrfy.c\",\"../../third_party/bearssl/rsa_i31_priv.c\",\"../../third_party/bearssl/rsa_i31_pub.c\",\"../../third_party/bearssl/rsa_i62_pkcs1_vrfy.c\",\"../../third_party/bearssl/rsa_i62_priv.c\",\"../../third_party/bearssl/rsa_i62_pub.c\",\"../../third_party/bearssl/rsa_pkcs1_sig_unpad.c\",\"../../third_party/bearssl/sha1.c\",\"../../third_party/bearssl/sha2big.c\",\"../../third_party/bearssl/sha2small.c\",\"../../third_party/bearssl/ssl_client.c\",\"../../third_party/bearssl/ssl_client_default_rsapub.c\",\"../../third_party/bearssl/ssl_client_full.c\",\"../../third_party/bearssl/ssl_engine.c\",\"../../third_party/bearssl/ssl_engine_default_aescbc.c\",\"../../third_party/bearssl/ssl_engine_default_aesccm.c\",\"../../third_party/bearssl/ssl_engine_default_aesgcm.c\",\"../../third_party/bearssl/ssl_engine_default_chapol.c\",\"../../third_party/bearssl/ssl_engine_default_ec.c\",\"../../third_party/bearssl/ssl_engine_default_ecdsa.c\",\"../../third_party/bearssl/ssl_engine_default_rsavrfy.c\",\"../../third_party/bearssl/ssl_hashes.c\",\"../../third_party/bearssl/ssl_hs_client.c\",\"../../third_party/bearssl/ssl_io.c\",\"../../third_party/bearssl/ssl_rec_cbc.c\",\"../../third_party/bearssl/ssl_rec_ccm.c\",\"../../third_party/bearssl/ssl_rec_chapol.c\",\"../../third_party/bearssl/ssl_rec_gcm.c\",\"../../third_party/bearssl/x509_minimal.c\",\"../../third_party/bearssl/x509_minimal_full.c\"]}],\"fullName\":\"libclassicube.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack\",\"linkLibraries\":\"-landroid -lEGL -lGLESv2 -llog -lOpenSLES -ljnigraphics -latomic -lm\",\"linkerLanguage\":\"C\",\"name\":\"classicube\",\"sourceDirectory\":\"/home/dawid_g/classichate/android/app\",\"sysroot\":\"/home/dawid_g/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/dawid_g/classichate/android/app/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  }
+]

@@ -1,0 +1,3 @@
+/home/dawid_g/classichate/android/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/dawid_g/classichate/android/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/dawid_g/classichate/android/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/classicube.dir

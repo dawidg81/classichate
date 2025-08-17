@@ -1,7 +1,28 @@
-mode-classic=True
+normal=legacyfast
+viewdist=256
+fpslimit=Sync with monitor
+namesmode=Only when pointing
+gfx-smoothlighting=True
+gfx-lightingmode=Fancy
+gfx-mipmaps=True
+launcher-dc-username=dawidg81
+launcher-dc-ip=127.0.0.1
+launcher-dc-port=25566
+launcher-dc-mppass=kxgKcU/OglrpoUFYMzD/felzttwN2FL/
+launcher-server=Ludinko23's Server (PARTY!! 110th Day Anniversary!) (map: lavasu
+launcher-username=dawidg81
+launcher-ip=78.99.251.58
+launcher-port=30506
+launcher-mppass=kxgKcU/Oglq4chxQGKSuQrDSDALLjAaskw7fKDWPM6aXBofEqfmIYDVZWK4Z8l8Z
+mode-classic=False
+nostalgia-customblocks=True
+nostalgia-usecpe=True
+nostalgia-servertextures=True
+nostalgia-classictablist=False
+nostalgia-classicoptions=False
+launcher-cc-username=dawidg81
+launcher-cc-password=kxgKcU/Oglpxypi7obaKBc4+omwZsQhFJfP/FTyIr5w=
+launcher-session=kxgKcU/OglriTwKnsQUrzn2qTMyoVpY3GzDCpJMibc/a5bm965qptBMA5pfllvgHUFO7q3kUk70kyf1JHJMV5dZYgATnASom1XHKNNcyzDalrAlnomTtwvjR+wEhEi9ZC7CC93FMy0uKpPwSCjbdx+aP8edFUS4CHSMmJKJrSMDsJgBvQ1yvjwQKgETzmoNh2JyCqdXpnthxbi10cslKpTFSUoukIsah1N3Ap0E097+FL8/4ECiDZRnzLbXK2rceQxrZakdWWdoGuzWLduOS/qedbzVoqWgn40oJag9EyBYIQoaBPm8repNKE1NeoR/BnGoRwV8KBux1rGO1dkkECQ==
 nostalgia-hacks=False
-nostalgia-customblocks=False
-nostalgia-usecpe=False
-nostalgia-servertextures=False
-nostalgia-classictablist=True
-nostalgia-classicoptions=True
+chat-logging=False
+entityshadow=No shadows...?

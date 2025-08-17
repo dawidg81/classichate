@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- BEGIN_INCLUDE(manifest) -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.classicube.android.client"
+5    android:versionCode="1370"
+6    android:versionName="1.3.7" >
+7
+8    <uses-sdk
+8-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:3-70
+9        android:minSdkVersion="13"
+9-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:13-38
+10        android:targetSdkVersion="26" />
+10-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:39-68
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:8:3-65
+12-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:8:20-62
+13    <uses-permission
+13-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:9:3-105
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:9:20-75
+15        android:maxSdkVersion="18" />
+15-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:9:76-102
+16    <uses-permission
+16-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:10:3-106
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:10:20-76
+18        android:maxSdkVersion="18" />
+18-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:10:77-103
+19
+20    <application
+20-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:13:3-29:17
+21        android:debuggable="true"
+22        android:icon="@mipmap/ccicon"
+22-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:13:16-45
+23        android:label="ClassiCube" >
+23-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:13:46-72
+24        <provider
+24-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:14:5-19:16
+25            android:name="com.classicube.CCFileProvider"
+25-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:15:9-53
+26            android:authorities="com.classicube.android.client.provider"
+26-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:16:9-69
+27            android:exported="false"
+27-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:17:9-33
+28            android:grantUriPermissions="true" >
+28-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:18:9-43
+29        </provider>
+30
+31        <activity
+31-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:21:5-28:16
+32            android:name="com.classicube.MainActivity"
+32-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:21:15-57
+33            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+33-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:22:15-85
+34            android:label="ClassiCube" >
+34-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:21:58-84
+35            <intent-filter>
+35-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:24:7-27:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:25:9-61
+36-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:25:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:26:9-69
+38-->/home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:26:19-66
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest> <!-- END_INCLUDE(manifest) -->

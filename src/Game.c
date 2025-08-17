@@ -74,7 +74,7 @@ int Game_NumStates = 1;
 #endif
 
 const char* const FpsLimit_Names[FPS_LIMIT_COUNT] = {
-	"LimitVSync", "Limit30FPS", "Limit60FPS", "Limit120FPS", "Limit144FPS", "LimitNone",
+	"Sync with monitor", "30FPS", "60FPS", "120FPS", "144FPS... Wow", "None... Wait what",
 };
 
 static struct IGameComponent* comps_head;
@@ -161,7 +161,7 @@ cc_bool Game_ReduceVRAM(void) {
 
 	MapRenderer_Refresh();
 	Game_SetViewDistance(Game_UserViewDistance);
-	Chat_AddRaw("&cOut of VRAM! Halving view distance..");
+	Chat_AddRaw("&cOH NOES! Out of VRAM! Halving view distance.. X_X");
 	return true;
 }
 
@@ -247,7 +247,7 @@ cc_bool Game_ValidateBitmap(const cc_string* file, struct Bitmap* bmp) {
 	float texSize, maxSize;
 
 	if (!bmp->scan0) {
-		Chat_Add1("&cError loading %s from the texture pack.", file);
+		Chat_Add1("&cOH NOES! Error loading %s from the tex pack. X_X", file);
 		return false;
 	}
 	
@@ -387,10 +387,10 @@ static void LoadPlugin(const cc_string* path, void* obj, int isDirectory) {
 
 	ver = *((int*)verSym);
 	if (ver < GAME_API_VER) {
-		Chat_Add1("&c%s plugin is outdated! Try getting a more recent version.", path);
+		Chat_Add1("&c%s plugin is an ancient gift from Egyptians! Try getting a more recent version.", path);
 		return;
 	} else if (ver > GAME_API_VER) {
-		Chat_Add1("&cYour game is too outdated to use %s plugin! Try updating it.", path);
+		Chat_Add1("&cYour game is too ancient pyramids to use %s plugin! Try updating it.", path);
 		return;
 	}
 
@@ -472,7 +472,7 @@ static void Game_Load(void) {
 	TexturePack_ExtractCurrent(true);
 	if (TexturePack_DefaultMissing) {
 		Window_ShowDialog("Missing file",
-			"Both default.zip and classicube.zip are missing,\n try downloading resources first.\n\nClassiCube will still run, but without any textures.");
+			"Both default.zip and classicube.zip are missing,\n try downloading resources first.\n\nClassiCube will still run, but without any textures LOL!.");
 	}
 
 	entTaskI = ScheduledTask_Add(GAME_DEF_TICKS, Entities_Tick);
@@ -626,7 +626,7 @@ void Game_TakeScreenshot(void) {
 
 	res = stream.Close(&stream);
 	if (res) { Logger_SysWarn2(res, "closing", &path); return; }
-	Chat_Add1("&eTaken screenshot as: %s", &filename);
+	Chat_Add1("&eA super duper epic photo of steve party taken: %s", &filename);
 
 #ifdef CC_BUILD_MOBILE
 	Platform_ShareScreenshot(&filename);

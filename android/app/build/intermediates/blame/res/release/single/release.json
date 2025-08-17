@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/dawid_g/classichate/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ccicon.png.flat",
+        "source": "/home/dawid_g/classichate/android/app/src/main/res/mipmap-xxhdpi/ccicon.png"
+    },
+    {
+        "merged": "/home/dawid_g/classichate/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ccicon.png.flat",
+        "source": "/home/dawid_g/classichate/android/app/src/main/res/mipmap-mdpi/ccicon.png"
+    },
+    {
+        "merged": "/home/dawid_g/classichate/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ccicon.png.flat",
+        "source": "/home/dawid_g/classichate/android/app/src/main/res/mipmap-xhdpi/ccicon.png"
+    },
+    {
+        "merged": "/home/dawid_g/classichate/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ccicon.png.flat",
+        "source": "/home/dawid_g/classichate/android/app/src/main/res/mipmap-hdpi/ccicon.png"
+    }
+]

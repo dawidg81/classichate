@@ -88,7 +88,7 @@ void Gen_Start(void) {
 	Gen_Blocks = (BlockRaw*)Mem_TryAlloc(World.Volume, 1);
 
 	if (!Gen_Blocks || !Gen_Active->Prepare()) {
-		Window_ShowDialog("Out of memory", "Not enough free memory to generate a map that large.\nTry a smaller size.");
+		Window_ShowDialog("OH NOES YOU ARE OUT OF MEMORY", "Not enough free memory to generate a map that large.\nTry a smaller size.");
 		gen_done = true;
 	} else {
 		Gen_Run();
@@ -119,13 +119,13 @@ static cc_bool FlatgrassGen_Prepare(void) {
 }
 
 static void FlatgrassGen_Generate(void) {
-	Gen_CurrentState = "Setting air blocks";
+	Gen_CurrentState = "Inflating oxygen";
 	FlatgrassGen_MapSet(World.Height / 2, World.MaxY, BLOCK_AIR);
 
-	Gen_CurrentState = "Setting dirt blocks";
+	Gen_CurrentState = "Million steves placing some dirt";
 	FlatgrassGen_MapSet(0, World.Height / 2 - 2, BLOCK_DIRT);
 
-	Gen_CurrentState = "Setting grass blocks";
+	Gen_CurrentState = "Trees and flowers";
 	FlatgrassGen_MapSet(World.Height / 2 - 1, World.Height / 2 - 1, BLOCK_GRASS);
 
 	gen_done = true;
@@ -140,7 +140,7 @@ const struct MapGenerator FlatgrassGen = {
 /*########################################################################################################################*
 *---------------------------------------------------Noise generation------------------------------------------------------*
 *#########################################################################################################################*/
-#define NOISE_TABLE_SIZE 512
+#define NOISE_TABLE_SIZE 1028 //512
 static void ImprovedNoise_Init(cc_uint8* p, RNGState* rnd) {
 	cc_uint8 tmp;
 	int i, j;
@@ -332,7 +332,7 @@ static void NotchyGen_CreateHeightmap(void) {
 	CombinedNoise_Init(n2, &rnd, 8, 8);	
 	OctaveNoise_Init(n3,   &rnd, 6);
 
-	Gen_CurrentState = "Building heightmap";
+	Gen_CurrentState = "Steve is climbing to the moon...";
 	for (z = 0; z < World.Length; z++) {
 		Gen_CurrentProgress = (float)z / World.Length;
 
@@ -361,7 +361,7 @@ static int NotchyGen_CreateStrataFast(void) {
 	int y;
 
 	Gen_CurrentProgress = 0.0f;
-	Gen_CurrentState    = "Filling map";
+	Gen_CurrentState    = "Bob Ross is painting the landscapes...";
 	/* Make lava layer at bottom */
 	Mem_Set(Gen_Blocks, BLOCK_STILL_LAVA, oneY);
 
@@ -395,7 +395,7 @@ static void NotchyGen_CreateStrata(void) {
 	minStoneY = NotchyGen_CreateStrataFast();
 	OctaveNoise_Init(&n, &rnd, 8);
 
-	Gen_CurrentState = "Creating strata";
+	Gen_CurrentState = "Whatever is strata, steve said that he is building it rn...";
 	for (z = 0; z < World.Length; z++) {
 		Gen_CurrentProgress = (float)z / World.Length;
 
@@ -430,7 +430,7 @@ static void NotchyGen_CarveCaves(void) {
 	int i, j;
 
 	cavesCount       = World.Volume / 8192;
-	Gen_CurrentState = "Carving caves";
+	Gen_CurrentState = "One million miners from China is working for you...";
 	for (i = 0; i < cavesCount; i++) {
 		Gen_CurrentProgress = (float)i / cavesCount;
 
@@ -506,7 +506,7 @@ static void NotchyGen_FloodFillWaterBorders(void) {
 	int waterY = waterLevel - 1;
 	int index1, index2;
 	int x, z;
-	Gen_CurrentState = "Flooding edge water";
+	Gen_CurrentState = "Greg be careful with that water";
 
 	index1 = World_Pack(0, waterY, 0);
 	index2 = World_Pack(0, waterY, World.Length - 1);
@@ -534,7 +534,7 @@ static void NotchyGen_FloodFillWater(void) {
 	int i, x, y, z;
 
 	numSources       = World.Width * World.Length / 800;
-	Gen_CurrentState = "Flooding water";
+	Gen_CurrentState = "GREG WHAT HAVE YOU DONE";
 	for (i = 0; i < numSources; i++) {
 		Gen_CurrentProgress = (float)i / numSources;
 
@@ -550,7 +550,7 @@ static void NotchyGen_FloodFillLava(void) {
 	int i, x, y, z;
 
 	numSources       = World.Width * World.Length / 20000;
-	Gen_CurrentState = "Flooding lava";
+	Gen_CurrentState = "GREG DONT PLACE LAVA";
 	for (i = 0; i < numSources; i++) {
 		Gen_CurrentProgress = (float)i / numSources;
 
@@ -581,7 +581,7 @@ static void NotchyGen_CreateSurfaceLayer(void) {
 	OctaveNoise_Init(n1, &rnd, 8);
 	OctaveNoise_Init(n2, &rnd, 8);
 
-	Gen_CurrentState = "Creating surface";
+	Gen_CurrentState = "Green green grass...";
 	for (z = 0; z < World.Length; z++) {
 		Gen_CurrentProgress = (float)z / World.Length;
 
@@ -611,7 +611,7 @@ static void NotchyGen_PlantFlowers(void) {
 
 	if (Game_Version.Version < VERSION_0023) return;
 	numPatches       = World.Width * World.Length / 3000;
-	Gen_CurrentState = "Planting flowers";
+	Gen_CurrentState = "Flowers blooming in Antarctica";
 
 	for (i = 0; i < numPatches; i++) {
 		Gen_CurrentProgress = (float)i / numPatches;
@@ -647,7 +647,7 @@ static void NotchyGen_PlantMushrooms(void) {
 
 	if (Game_Version.Version < VERSION_0023) return;
 	numPatches       = World.Volume / 2000;
-	Gen_CurrentState = "Planting mushrooms";
+	Gen_CurrentState = "Preparing soup for your grandpa";
 
 	for (i = 0; i < numPatches; i++) {
 		Gen_CurrentProgress = (float)i / numPatches;
@@ -690,7 +690,7 @@ static void NotchyGen_PlantTrees(void) {
 	Tree_Rnd    = &rnd;
 
 	numPatches       = World.Width * World.Length / 4000;
-	Gen_CurrentState = "Planting trees";
+	Gen_CurrentState = "dawidg81 has joined the game";
 	for (i = 0; i < numPatches; i++) {
 		Gen_CurrentProgress = (float)i / numPatches;
 
@@ -738,9 +738,9 @@ static void NotchyGen_Generate(void) {
 		GEN_COOP_STEP( 0, NotchyGen_CreateHeightmap() );
 		GEN_COOP_STEP( 1, NotchyGen_CreateStrata() );
 		GEN_COOP_STEP( 2, NotchyGen_CarveCaves() );
-		GEN_COOP_STEP( 3, NotchyGen_CarveOreVeins(0.9f, "Carving coal ore", BLOCK_COAL_ORE) );
-		GEN_COOP_STEP( 4, NotchyGen_CarveOreVeins(0.7f, "Carving iron ore", BLOCK_IRON_ORE) );
-		GEN_COOP_STEP( 5, NotchyGen_CarveOreVeins(0.5f, "Carving gold ore", BLOCK_GOLD_ORE) );
+		GEN_COOP_STEP( 3, NotchyGen_CarveOreVeins(0.9f, "Santa is delivering coal for you", BLOCK_COAL_ORE) );
+		GEN_COOP_STEP( 4, NotchyGen_CarveOreVeins(0.7f, "Killing iron golems...", BLOCK_IRON_ORE) );
+		GEN_COOP_STEP( 5, NotchyGen_CarveOreVeins(0.5f, "Guacamole will be happy", BLOCK_GOLD_ORE) );
 
 		GEN_COOP_STEP( 6, NotchyGen_FloodFillWaterBorders() );
 		GEN_COOP_STEP( 7, NotchyGen_FloodFillWater() );

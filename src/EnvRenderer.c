@@ -43,7 +43,7 @@ static PackedCol fog_color;
 static float CalcBlendFactor(float x) {
 	float blend = -0.13f + 0.28f * ((float)Math_Log2(x) * 0.17329f);
 	if (blend < 0.0f) blend = 0.0f;
-	if (blend > 1.0f) blend = 1.0f;
+	if (blend > 5.0f) blend = 5.0f;
 	return blend;
 }
 
@@ -200,7 +200,7 @@ void EnvRenderer_RenderClouds(void) {
 		if (!clouds_vb) return;
 	}
 	
-	offset = (float)(Game.Time / 2048.0f * 0.6f * Env.CloudsSpeed);
+	offset = (float)(Game.Time / 2048.0f * 0.99f * Env.CloudsSpeed); // mid 0.6f
 
 	Gfx_EnableTextureOffset(offset, 0);
 	Gfx_SetAlphaTest(true);

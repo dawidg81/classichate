@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:1-31:12
+	package
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:4:11-50
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:6:11-38
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:5:11-37
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:8:3-65
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:8:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:9:3-105
+	android:maxSdkVersion
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:9:76-102
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:9:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:10:3-106
+	android:maxSdkVersion
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:10:77-103
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:10:20-76
+uses-sdk
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:3-70
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:3-70
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:3-70
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:3-70
+INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:3-70
+	android:targetSdkVersion
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:39-68
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:11:13-38
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:13:3-29:17
+	android:label
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:13:46-72
+	android:icon
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:13:16-45
+provider#com.classicube.CCFileProvider
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:14:5-19:16
+	android:grantUriPermissions
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:18:9-43
+	android:authorities
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:16:9-69
+	android:exported
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:15:9-53
+activity#com.classicube.MainActivity
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:21:5-28:16
+	android:label
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:21:58-84
+	android:configChanges
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:22:15-85
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:21:15-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:24:7-27:23
+action#android.intent.action.MAIN
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:25:9-61
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:25:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from /home/dawid_g/classichate/android/app/src/main/AndroidManifest.xml:26:19-66

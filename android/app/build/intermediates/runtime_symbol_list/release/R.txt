@@ -1,0 +1,1 @@
+int mipmap ccicon 0x7f010000

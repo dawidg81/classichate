@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/home/dawid_g/classichate/android/app/CMakeLists.txt",
+    "/home/dawid_g/Android/Sdk/ndk/20.0.5594570/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/dawid_g/classichate/android/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/dawid_g/classichate/android/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "classicube-Release-x86_64": {
+      "artifactName": "classicube",
+      "buildCommand": "/home/dawid_g/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/dawid_g/classichate/android/app/.cxx/cmake/release/x86_64\" classicube",
+      "abi": "x86_64",
+      "output": "/home/dawid_g/classichate/android/app/build/intermediates/cmake/release/obj/x86_64/libclassicube.so"
+    }
+  }
+}
