@@ -10,7 +10,7 @@ struct _InventoryData Inventory;
 
 cc_bool Inventory_CheckChangeSelected(void) {
 	if (!Inventory.CanChangeSelected) {
-		Chat_AddRaw("&cThe server has forbidden you from changing your held block.");
+		Chat_AddRaw("&cOh no you can not change that blok");
 		return false;
 	}
 	return true;

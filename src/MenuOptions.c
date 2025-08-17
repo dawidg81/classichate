@@ -139,7 +139,7 @@ static void MenuOptionsScreen_Update(struct MenuOptionsScreen* s, struct ButtonW
 
 	String_AppendConst(&title, btn->optName);
 	if (meta->GetText) {
-		String_AppendConst(&title, ": ");
+		String_AppendConst(&title, ">> ");
 		meta->GetText(btn, &title);
 	}	
 	ButtonWidget_Set(btn, &title, &s->titleFont);
@@ -261,7 +261,7 @@ static void MenuOptionsScreen_EndButtons(struct MenuOptionsScreen* s, int half, 
 static void MenuOptionsScreen_BoolGet(struct ButtonWidget* btn, cc_string* v) {
 	struct MenuOptionMetaBool* meta = (struct MenuOptionMetaBool*)btn->meta.ptr;
 	cc_bool value = meta->GetValue();
-	String_AppendConst(v, value ? "ON" : "OFF");
+	String_AppendConst(v, value ? "Trueu" : "FALSCH");
 }
 
 static void MenuOptionsScreen_BoolClick(void* screen, void* widget) {
@@ -506,7 +506,7 @@ static void MenuOptionsScreen_ContextRecreated(void* screen) {
 		if (s->widgets[i]) MenuOptionsScreen_Update(s, &s->buttons[i]); 
 	}
 
-	ButtonWidget_SetConst(&s->done, "Done", &s->titleFont);
+	ButtonWidget_SetConst(&s->done, "I'm done, bro.", &s->titleFont);
 	if (s->DoRecreateExtra) s->DoRecreateExtra(s);
 	TextGroupWidget_SetFont(&s->extHelp, &s->textFont);
 	TextGroupWidget_RedrawAll(&s->extHelp); /* TODO: SetFont should redrawall implicitly */
@@ -536,7 +536,7 @@ void MenuOptionsScreen_Show(InitMenuOptions init) {
 *---------------------------------------------------ClassicOptionsScreen--------------------------------------------------*
 *#########################################################################################################################*/
 enum ViewDist { VIEW_TINY, VIEW_SHORT, VIEW_NORMAL, VIEW_FAR, VIEW_COUNT };
-static const char* const viewDistNames[VIEW_COUNT] = { "TINY", "SHORT", "NORMAL", "FAR" };
+static const char* const viewDistNames[VIEW_COUNT] = { "Blind", "Herobrine", "Decent", "I see greg on that tower" };
 
 static cc_bool ClO_GetMusic(void) { return Audio_MusicVolume > 0; }
 static void    ClO_SetMusic(cc_bool v) {
@@ -602,31 +602,31 @@ static void    ClO_SetHacks(cc_bool v) {
 }
 
 static void ClassicOptionsScreen_RecreateExtra(struct MenuOptionsScreen* s) {
-	ButtonWidget_SetConst(&s->buttons[9], "Controls...", &s->titleFont);
+	ButtonWidget_SetConst(&s->buttons[9], "Controllling", &s->titleFont);
 }
 
 static void ClassicOptionsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddBool(s, "Music",
+		MenuOptionsScreen_AddBool(s, "Musik in my ears",
 			ClO_GetMusic,    ClO_SetMusic, NULL);
-		MenuOptionsScreen_AddBool(s, "Invert mouse",
+		MenuOptionsScreen_AddBool(s, "Camera after diarhea",
 			ClO_GetInvert,   ClO_SetInvert, NULL);
-		MenuOptionsScreen_AddEnum(s, "Render distance", viewDistNames, VIEW_COUNT,
+		MenuOptionsScreen_AddEnum(s, "Fog Industry Inc.", viewDistNames, VIEW_COUNT,
 			ClO_GetViewDist, ClO_SetViewDist, NULL);
-		MenuOptionsScreen_AddBool(s, "3d anaglyph",
+		MenuOptionsScreen_AddBool(s, "Get ya 3d glasses",
 			ClO_GetAnaglyph, ClO_SetAnaglyph, NULL);
 		
-		MenuOptionsScreen_AddBool(s, "Sound",
+		MenuOptionsScreen_AddBool(s, "For ears",
 			ClO_GetSounds,   ClO_SetSounds, NULL);
-		MenuOptionsScreen_AddBool(s, "Show FPS",
+		MenuOptionsScreen_AddBool(s, "Show how much lag do you have",
 			ClO_GetShowFPS,  ClO_SetShowFPS, NULL);
-		MenuOptionsScreen_AddBool(s, "View bobbing",
+		MenuOptionsScreen_AddBool(s, "Dizzy steve",
 			ClO_GetViewBob,  ClO_SetViewBob, NULL);
-		MenuOptionsScreen_AddBool(s, "Limit framerate",
+		MenuOptionsScreen_AddBool(s, "Lagger",
 			ClO_GetFPS,      ClO_SetFPS, NULL);
 		if (Game_ClassicHacks) {
-			MenuOptionsScreen_AddBool(s, "Hacks enabled",
+			MenuOptionsScreen_AddBool(s, "Cheatin hackin",
 				ClO_GetHacks,ClO_SetHacks, NULL);
 		}
 	}
@@ -678,29 +678,29 @@ static void ES_SetEdgeHeight(int v) { Env_SetEdgeHeight(v); }
 static void EnvSettingsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddHex(s, "Clouds color", ENV_DEFAULT_CLOUDS_COLOR,
+		MenuOptionsScreen_AddHex(s, "Cloud Industry Inc.", ENV_DEFAULT_CLOUDS_COLOR,
 			ES_GetCloudsColor,  ES_SetCloudsColor, NULL);
-		MenuOptionsScreen_AddHex(s, "Sky color",    ENV_DEFAULT_SKY_COLOR,
+		MenuOptionsScreen_AddHex(s, "What color is the sky",    ENV_DEFAULT_SKY_COLOR,
 			ES_GetSkyColor,     ES_SetSkyColor, NULL);
-		MenuOptionsScreen_AddHex(s, "Fog color",    ENV_DEFAULT_FOG_COLOR,
+		MenuOptionsScreen_AddHex(s, "Herobrine color",    ENV_DEFAULT_FOG_COLOR,
 			ES_GetFogColor,     ES_SetFogColor, NULL);
-		MenuOptionsScreen_AddNum(s, "Clouds speed",
+		MenuOptionsScreen_AddNum(s, "Wind speed",
 			0,       1000,                1,
 			ES_GetCloudsSpeed,  ES_SetCloudsSpeed, NULL);
-		MenuOptionsScreen_AddInt(s, "Clouds height", 
+		MenuOptionsScreen_AddInt(s, "CO2 density", 
 			-10000, 10000, World.Height + 2,
 			ES_GetCloudsHeight, ES_SetCloudsHeight, NULL);
 		
-		MenuOptionsScreen_AddHex(s, "Sunlight color", ENV_DEFAULT_SUN_COLOR,
+		MenuOptionsScreen_AddHex(s, "Light broadcast", ENV_DEFAULT_SUN_COLOR,
 			ES_GetSunColor,     ES_SetSunColor, NULL);
-		MenuOptionsScreen_AddHex(s, "Shadow color",   ENV_DEFAULT_SHADOW_COLOR,
+		MenuOptionsScreen_AddHex(s, "Shadow people",   ENV_DEFAULT_SHADOW_COLOR,
 			ES_GetShadowColor,  ES_SetShadowColor, NULL);
-		MenuOptionsScreen_AddEnum(s, "Weather", Weather_Names, Array_Elems(Weather_Names),
+		MenuOptionsScreen_AddEnum(s, "Natural catastrophics", Weather_Names, Array_Elems(Weather_Names),
 			ES_GetWeather,      ES_SetWeather, NULL);
-		MenuOptionsScreen_AddNum(s, "Rain/Snow speed",
+		MenuOptionsScreen_AddNum(s, "Catastrophics speed",
 			 -100,  100,                1,
 			ES_GetWeatherSpeed, ES_SetWeatherSpeed, NULL);
-		MenuOptionsScreen_AddInt(s, "Water level",
+		MenuOptionsScreen_AddInt(s, "Flood intensity",
 			-2048, 2048, World.Height / 2,
 			ES_GetEdgeHeight,   ES_SetEdgeHeight, NULL);
 	}
@@ -770,47 +770,47 @@ static void    GrO_SetMipmaps(cc_bool v) {
 static void GraphicsOptionsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddEnum(s, "FPS mode", FpsLimit_Names, FPS_LIMIT_COUNT,
+		MenuOptionsScreen_AddEnum(s, "Lag mode", FpsLimit_Names, FPS_LIMIT_COUNT,
 			GrO_GetFPS,        GrO_SetFPS,
-			"&eVSync: &fNumber of frames rendered is at most the monitor's refresh rate.\n" \
-			"&e30/60/120/144 FPS: &fRenders 30/60/120/144 frames at most each second.\n" \
-			"&eNoLimit: &fRenders as many frames as possible each second.\n" \
-			"&cNoLimit is pointless - it wastefully renders frames that you don't even see!");
-		MenuOptionsScreen_AddInt(s, "View distance",
+			"&eSync monitor: &fIt will sync with your montor so you get delay in camera move.\n" \
+			"&e30/60/120/144 fps: &fRenders 30/60/120/144 frames at most each second. 30 fps is LAG!\n" \
+			"&eNoLimit: &fIt will overuse your CPU, sir.\n" \
+			"&cI have no clue who put that noLimit option it is pointless unless you want to flex your super duper 1000 fps on nvidia rtx 3328ti");
+		MenuOptionsScreen_AddInt(s, "Heorbrine distance",
 			8, 4096, 512,
 			GrO_GetViewDist,   GrO_SetViewDist, NULL);
-		MenuOptionsScreen_AddBool(s, "Smooth lighting",
+		MenuOptionsScreen_AddBool(s, "Realistic shadows",
 			GrO_GetSmooth,     GrO_SetSmooth,
-			"&eSmooth lighting smooths lighting and adds a minor glow to bright blocks.\n" \
-			"&cNote: &eThis setting may reduce performance.");
-		MenuOptionsScreen_AddEnum(s, "Lighting mode", LightingMode_Names, LIGHTING_MODE_COUNT,
+			"&eSmooth lighting smooths lighting, what else could it do?\n" \
+			"&cNote: &eMore video card or CPU usage. Use with carefulnes if you dont want to hav LAG.");
+		MenuOptionsScreen_AddEnum(s, "Global warming aggresivnes", LightingMode_Names, LIGHTING_MODE_COUNT,
 			GrO_GetLighting,   GrO_SetLighting,
-			"&eClassic: &fTwo levels of light, sun and shadow.\n" \
-			"    Good for performance.\n" \
-			"&eFancy: &fBright blocks cast a much wider range of light\n" \
-			"    May heavily reduce performance.\n" \
-			"&cNote: &eIn multiplayer, this option may be changed or locked by the server.");
+			"&eClassic: &fSimple doodles.\n" \
+			"    Good for your pc.\n" \
+			"&eFancy: &fBright blocks are melting your eyes\n" \
+			"    May lag.\n" \
+			"&cNote: &eWhen connected to a server, the server may block it :P");
 			
-		MenuOptionsScreen_AddEnum(s, "Names",   NameMode_Names,   NAME_MODE_COUNT,
+		MenuOptionsScreen_AddEnum(s, "Nicknames so i know wheres greg",   NameMode_Names,   NAME_MODE_COUNT,
 			GrO_GetNames,      GrO_SetNames,
-			"&eNone: &fNo names of players are drawn.\n" \
-			"&eHovered: &fName of the targeted player is drawn see-through.\n" \
-			"&eAll: &fNames of all other players are drawn normally.\n" \
-			"&eAllHovered: &fAll names of players are drawn see-through.\n" \
-			"&eAllUnscaled: &fAll names of players are drawn see-through without scaling.");
-		MenuOptionsScreen_AddEnum(s, "Shadows", ShadowMode_Names, SHADOW_MODE_COUNT,
+			"&eNone: &fNo names are drawn and you are lost.\n" \
+			"&eHovered: &fName of the pointed player is drawn in the walls (he is in your walls).\n" \
+			"&eAll: &fNormal names.\n" \
+			"&eAllHovered: &fAll names in the walls.\n" \
+			"&eAllUnscaled: &fAll names in the walls melting your eyes.");
+		MenuOptionsScreen_AddEnum(s, "Shadow people", ShadowMode_Names, SHADOW_MODE_COUNT,
 			GrO_GetShadows,    GrO_SetShadows,
-			"&eNone: &fNo entity shadows are drawn.\n" \
-			"&eSnapToBlock: &fA square shadow is shown on block you are directly above.\n" \
-			"&eCircle: &fA circular shadow is shown across the blocks you are above.\n" \
-			"&eCircleAll: &fA circular shadow is shown underneath all entities.");
+			"&eNone: &fThere are no shadow people.\n" \
+			"&eSnapToBlock: &fThere are shadow people.\n" \
+			"&eCircle: &fThere are realistic shadow people.\n" \
+			"&eCircleAll: &fThey are coming.");
 
 		if (!Gfx_GetUIOptions(s)) {
-		MenuOptionsScreen_AddBool(s, "Mipmaps",
+		MenuOptionsScreen_AddBool(s, "A completely useless feature",
 			GrO_GetMipmaps,    GrO_SetMipmaps, NULL);
 		}
 
-		MenuOptionsScreen_AddBool(s, "3D anaglyph",
+		MenuOptionsScreen_AddBool(s, "Get ya 3d glasses",
 			ClO_GetAnaglyph,   ClO_SetAnaglyph, NULL);
 	};
 	MenuOptionsScreen_EndButtons(s, -1, Menu_SwitchOptions);
@@ -867,18 +867,18 @@ static void    ChO_SetClickable(cc_bool v) {
 static void ChatOptionsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddBool(s, "Scale with window",
+		MenuOptionsScreen_AddBool(s, "Scalable chat",
 			ChO_GetAutoScaleChat, ChO_SetAutoScaleChat, NULL);
-		MenuOptionsScreen_AddNum(s, "Chat scale",
+		MenuOptionsScreen_AddNum(s, "Yapping size",
 			0.25f, 4.00f, 1,
 			ChO_GetChatScale,     ChO_SetChatScale, NULL);
-		MenuOptionsScreen_AddInt(s, "Chat lines",
+		MenuOptionsScreen_AddInt(s, "Yapping amount",
 			    0,    30, Gui.DefaultLines,
 			ChO_GetChatlines,     ChO_SetChatlines, NULL);
 
-		MenuOptionsScreen_AddBool(s, "Log to disk",
+		MenuOptionsScreen_AddBool(s, "Log the yapping to disk and save the history",
 			ChO_GetLogging,       ChO_SetLogging, NULL);
-		MenuOptionsScreen_AddBool(s, "Clickable chat",
+		MenuOptionsScreen_AddBool(s, "Clickable messages to spread history",
 			ChO_GetClickable,     ChO_SetClickable, NULL);
 	}
 	MenuOptionsScreen_EndButtons(s, -1, Menu_SwitchOptions);
@@ -936,25 +936,25 @@ static void    GuO_SetUseFont(cc_bool v) {
 static void GuiOptionsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddBool(s, "Show FPS",
+		MenuOptionsScreen_AddBool(s, "Show Lag counter",
 			GuO_GetShowFPS,   GuO_SetShowFPS, NULL);
-		MenuOptionsScreen_AddNum(s,  "Hotbar scale",
+		MenuOptionsScreen_AddNum(s,  "Socket scale",
 			0.25f, 4.00f, 1,
 			GuO_GetHotbar,    GuO_SetHotbar, NULL);
-		MenuOptionsScreen_AddNum(s,  "Inventory scale",
+		MenuOptionsScreen_AddNum(s,  "Backpack size",
 			0.25f, 4.00f, 1,
 			GuO_GetInventory, GuO_SetInventory, NULL);
-		MenuOptionsScreen_AddNum(s,  "Crosshair scale",
+		MenuOptionsScreen_AddNum(s,  "+ size",
 			0.25f, 4.00f, 1,
 			GuO_GetCrosshair, GuO_SetCrosshair, NULL);
 		
 		MenuOptionsScreen_AddBool(s, "Black text shadows",
 			GuO_GetShadows,   GuO_SetShadows, NULL);
-		MenuOptionsScreen_AddBool(s, "Tab auto-complete",
+		MenuOptionsScreen_AddBool(s, "Tabulator-inator",
 			GuO_GetTabAuto,   GuO_SetTabAuto, NULL);
-		MenuOptionsScreen_AddBool(s, "Use system font",
+		MenuOptionsScreen_AddBool(s, "Use system glyphs",
 			GuO_GetUseFont,   GuO_SetUseFont, NULL);
-		MenuOptionsScreen_AddButton(s, "Select system font", Menu_SwitchFont,
+		MenuOptionsScreen_AddButton(s, "Select your crazy hieroglyphics", Menu_SwitchFont,
 			NULL,             NULL, NULL);
 	}
 	MenuOptionsScreen_EndButtons(s, -1, Menu_SwitchOptions);
@@ -1058,40 +1058,40 @@ static void HacksSettingsScreen_CheckHacksAllowed(struct MenuOptionsScreen* s) {
 static void HacksSettingsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddBool(s, "Hacks enabled",
+		MenuOptionsScreen_AddBool(s, "Hackin cheatin enabl",
 			HS_GetHacks,    HS_SetHacks, NULL);
-		MenuOptionsScreen_AddNum(s,  "Speed multiplier", 
+		MenuOptionsScreen_AddNum(s,  "Speedy amount", 
 			0.1f,   50, 10,
 			HS_GetSpeed,    HS_SetSpeed, NULL);
-		MenuOptionsScreen_AddBool(s, "Camera clipping",
+		MenuOptionsScreen_AddBool(s, "Cam cli[",
 			HS_GetClipping, HS_SetClipping,
-			"&eIf &fON&e, then the third person cameras will limit\n" \
-			"&etheir zoom distance if they hit a solid block.");
-		MenuOptionsScreen_AddNum(s,  "Jump height",
+			"&eIf &fenabl&e, then the cam\n" \
+			"&ewill not show whats happening in the walls :-(");
+		MenuOptionsScreen_AddNum(s,  "Bunny potion intensiveness",
 			0.1f, 2048, 1.233f,
 			HS_GetJump,     HS_SetJump,
-			"&eSets how many blocks high you can jump up.\n" \
-			"&eNote: You jump much higher when holding down the Speed key binding.");
-		MenuOptionsScreen_AddBool(s, "WoM style hacks",
+			"&eHow much potion you consume\n" \
+			"&eNote: You jump much higher when speedy.");
+		MenuOptionsScreen_AddBool(s, "Tricky hackin o_O",
 			HS_GetWOMHacks, HS_SetWOMHacks,
-			"&eIf &fON&e, gives you a triple jump which increases speed massively,\n" \
+			"&eIf &fON&e, gives you a triple jump,\n" \
 			"&ealong with older noclip style. This is based on the \"World of Minecraft\"\n" \
 			"&eclassic client mod, which popularized hacks conventions and controls\n" \
 			"&ebefore ClassiCube was created.");
 		
-		MenuOptionsScreen_AddBool(s, "Full block stepping",
+		MenuOptionsScreen_AddBool(s, "All world is stairs",
 			HS_GetFullStep, HS_SetFullStep, NULL);
-		MenuOptionsScreen_AddBool(s, "Breakable liquids",
+		MenuOptionsScreen_AddBool(s, "Breakable water WAIT WHAT",
 			HS_GetLiquids,  HS_SetLiquids, NULL);
-		MenuOptionsScreen_AddBool(s, "Pushback placing",
+		MenuOptionsScreen_AddBool(s, "The block will push",
 			HS_GetPushback, HS_SetPushback,
 			"&eIf &fON&e, placing blocks that intersect your own position cause\n" \
 			"&ethe block to be placed, and you to be moved out of the way.\n" \
 			"&fThis is mainly useful for quick pillaring/towering.");
-		MenuOptionsScreen_AddBool(s, "Noclip slide",
+		MenuOptionsScreen_AddBool(s, "Garrys mod noclippin",
 			HS_GetSlide,    HS_SetSlide,
 			"&eIf &fOFF&e, you will immediately stop when in noclip\n&emode and no movement keys are held down.");
-		MenuOptionsScreen_AddInt(s,  "Field of view", 
+		MenuOptionsScreen_AddInt(s,  "Frog's eye intensity", 
 			1,  179, 70,
 			HS_GetFOV,      HS_SetFOV, NULL);
 	}
@@ -1163,29 +1163,29 @@ static void MiO_SetSensitivity(int v) {
 static void MiscSettingsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddNum(s,  "Reach distance",
+		MenuOptionsScreen_AddNum(s,  "Hand lenght",
 			   1, 1024, 5,
 			MiO_GetReach,    MiO_SetReach, NULL);
-		MenuOptionsScreen_AddNum(s, "Camera Mass",
+		MenuOptionsScreen_AddNum(s, "This cam heavy",
 			1, 100, 20,
 			MiO_GetCameraMass, MiO_SetCameraMass,
-			"&eChange the smoothness of the smooth camera.");
-		MenuOptionsScreen_AddInt(s,  "Music volume",
+			"&eIt is recommended to make the camera so heavy that greg will not pull it up.");
+		MenuOptionsScreen_AddInt(s,  "Musik volumens",
 			   0, 100,  DEFAULT_MUSIC_VOLUME,
 			MiO_GetMusic,     MiO_SetMusic, NULL);
-		MenuOptionsScreen_AddInt(s,  "Sounds volume",
+		MenuOptionsScreen_AddInt(s,  "AAAAAAAAA volumens",
 			   0, 100,  DEFAULT_SOUNDS_VOLUME,
 			MiO_GetSounds,  MiO_SetSounds, NULL);
 
-		MenuOptionsScreen_AddBool(s, "Block physics",
+		MenuOptionsScreen_AddBool(s, "Sand suffocation",
 			MiO_GetPhysics, MiO_SetPhysics, NULL);
-		MenuOptionsScreen_AddBool(s, "Smooth camera",
+		MenuOptionsScreen_AddBool(s, "Cinematic",
 			MiO_GetCamera, MiO_SetCamera, NULL);
-		MenuOptionsScreen_AddBool(s, "View bobbing",
+		MenuOptionsScreen_AddBool(s, "Dizzy steve",
 			MiO_GetViewBob, MiO_SetViewBob, NULL);
-		MenuOptionsScreen_AddBool(s, "Invert mouse",
+		MenuOptionsScreen_AddBool(s, "Dizzy cam",
 			MiO_GetInvert,  MiO_SetInvert, NULL);
-		MenuOptionsScreen_AddInt(s,  "Mouse sensitivity", 
+		MenuOptionsScreen_AddInt(s,  "Mouse wilderness", 
 #ifdef CC_BUILD_WIN
 			   1, 200, 40,
 #else
@@ -1253,18 +1253,18 @@ static void    NA_SetOpts(cc_bool v) {
 static void NostalgiaAppearanceScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddBool(s, "Classic hand model",
+		MenuOptionsScreen_AddBool(s, "Cracked bones",
 			NA_GetHand,        NA_SetHand, NULL);
-		MenuOptionsScreen_AddBool(s, "Classic walk anim",
+		MenuOptionsScreen_AddBool(s, "Dizzy walk",
 			NA_GetAnim,        NA_SetAnim, NULL);
-		MenuOptionsScreen_AddBool(s, "Classic chat",
+		MenuOptionsScreen_AddBool(s, "Classic yapping",
 			NA_GetClassicChat, NA_SetClassicChat, NULL);
-		MenuOptionsScreen_AddBool(s, "Classic inventory",
+		MenuOptionsScreen_AddBool(s, "Backpack from the 80s",
 			NA_GetClassicInv,  NA_SetClassicInv, NULL);
 			
-		MenuOptionsScreen_AddBool(s, "Classic GUI textures",
+		MenuOptionsScreen_AddBool(s, "Notchy stone gui",
 			NA_GetGui,   NA_SetGui, NULL);
-		MenuOptionsScreen_AddBool(s, "Classic player list",
+		MenuOptionsScreen_AddBool(s, "Simple players",
 			NA_GetList,  NA_SetList, NULL);
 		MenuOptionsScreen_AddBool(s, "Classic options",
 			NA_GetOpts,  NA_SetOpts, NULL);
@@ -1323,24 +1323,24 @@ static void NF_SetVersion(struct ButtonWidget* btn, const cc_string* v) { }
 
 static struct TextWidget nostalgia_desc;
 static void NostalgiaScreen_RecreateExtra(struct MenuOptionsScreen* s) {
-	TextWidget_SetConst(&nostalgia_desc, "&eRequires restarting game to take full effect", &s->textFont);
+	TextWidget_SetConst(&nostalgia_desc, "&eRequires exploding to take effect", &s->textFont);
 }
 
 static void NostalgiaFunctionalityScreen_InitWidgets(struct MenuOptionsScreen* s) {
 	MenuOptionsScreen_BeginButtons(s);
 	{
-		MenuOptionsScreen_AddBool(s, "Use server textures",
+		MenuOptionsScreen_AddBool(s, "Use server's awesome imagery",
 			NF_GetTexs,    NF_SetTexs, NULL);
-		MenuOptionsScreen_AddBool(s, "Allow custom blocks",
+		MenuOptionsScreen_AddBool(s, "Allow custom dangerous substances",
 			NF_GetCustom,  NF_SetCustom, NULL);
 			
-		MenuOptionsScreen_AddBool(s, "Non-classic features",
+		MenuOptionsScreen_AddBool(s, "Nostalgia breaker",
 			NF_GetCPE,     NF_SetCPE, NULL);
-		MenuOptionsScreen_AddButton(s, "Game version", NostalgiaScreen_Version,
+		MenuOptionsScreen_AddButton(s, "Nostalgia intensity", NostalgiaScreen_Version,
 			NF_GetVersion, NF_SetVersion,
-			"&eNote that support for versions earlier than 0.30 is incomplete.\n" \
+			"&eThe more nostalgia the simpler times.\n" \
 			"\n" \
-			"&cNote that some servers only support 0.30 game version");
+			"&cServer supports maximum nostalgia");
 	}
 	MenuOptionsScreen_EndButtons(s, -1, Menu_SwitchNostalgia);
 	s->DoRecreateExtra = NostalgiaScreen_RecreateExtra;

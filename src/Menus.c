@@ -309,7 +309,7 @@ static void ListScreen_UpdateTitle(struct ListScreen* s) {
 		pages = Math_CeilDiv(s->entries.count, LIST_SCREEN_ITEMS);
 
 		if (pages == 0) pages = 1;
-		String_Format2(&str, " &7(page %i/%i)", &num, &pages);
+		String_Format2(&str, " &7(pergamin %i out of %i)", &num, &pages);
 	}
 	TextWidget_Set(&s->title, &str, &s->font);
 }
@@ -443,9 +443,9 @@ static void ListScreen_ContextRecreated(void* screen) {
 	Gui_MakeTitleFont(&s->font);
 	ListScreen_RedrawEntries(s);
 
-	ButtonWidget_SetConst(&s->left,  "<",   &s->font);
-	ButtonWidget_SetConst(&s->right, ">",   &s->font);
-	ButtonWidget_SetConst(&s->done, "Done", &s->font);
+	ButtonWidget_SetConst(&s->left,  "<-",   &s->font);
+	ButtonWidget_SetConst(&s->right, "->",   &s->font);
+	ButtonWidget_SetConst(&s->done, "I am done bro", &s->font);
 	ListScreen_UpdatePage(s);
 
 	ButtonWidget_SetConst(&s->action, s->actionText, &s->font);
@@ -506,8 +506,8 @@ static void PauseScreenBase_ContextRecreated(struct PauseScreen* s, struct FontD
 	Screen_UpdateVb(s);
 	Gui_MakeTitleFont(titleFont);
 	Menu_SetButtons(s->btns, titleFont, s->descs, s->descsCount);
-	ButtonWidget_SetConst(&s->back, "Back to game", titleFont);
-	TextWidget_SetConst(&s->title,  "Game menu", titleFont);
+	ButtonWidget_SetConst(&s->back, "Back to the super bro party", titleFont);
+	TextWidget_SetConst(&s->title,  "Awesome menu", titleFont);
 }
 
 static void PauseScreenBase_AddWidgets(struct PauseScreen* s, int width) {
@@ -536,7 +536,7 @@ static void PauseScreen_ContextRecreated(void* screen) {
 	struct FontDesc titleFont;
 	PauseScreenBase_ContextRecreated(s, &titleFont);
 
-	ButtonWidget_SetConst(&s->quit, "Quit game", &titleFont);
+	ButtonWidget_SetConst(&s->quit, "Are you sure to quit the party :-(", &titleFont);
 	PauseScreen_CheckHacksAllowed(s);
 	Font_Free(&titleFont);
 }
@@ -552,12 +552,12 @@ static void PauseScreen_Layout(void* screen) {
 static void PauseScreen_Init(void* screen) {
 	struct PauseScreen* s = (struct PauseScreen*)screen;
 	static const struct SimpleButtonDesc descs[] = {
-		{ -160,  -50, "Options...",             Menu_SwitchOptions   },
-		{ -160,    0, "Change texture pack...", Menu_SwitchTexPacks  },
-		{ -160,   50, "Hotkeys...",             Menu_SwitchHotkeys   },
-		{  160,  -50, "Generate new level...",  Menu_SwitchGenLevel  },
-		{  160,    0, "Load level...",          Menu_SwitchLoadLevel },
-		{  160,   50, "Save level...",          Menu_SwitchSaveLevel }
+		{ -160,  -50, "Awesome settings",             Menu_SwitchOptions   },
+		{ -160,    0, "Change awesome imagery", Menu_SwitchTexPacks  },
+		{ -160,   50, "Keyboard setup",             Menu_SwitchHotkeys   },
+		{  160,  -50, "Generate new party",  Menu_SwitchGenLevel  },
+		{  160,    0, "Load party",          Menu_SwitchLoadLevel },
+		{  160,   50, "Save party",          Menu_SwitchSaveLevel }
 	};
 
 	s->widgets     = pause_widgets;
@@ -620,11 +620,11 @@ static void ClassicPauseScreen_Layout(void* screen) {
 static void ClassicPauseScreen_Init(void* screen) {
 	struct PauseScreen* s = (struct PauseScreen*)screen;
 	static const struct SimpleButtonDesc descs[] = {
-		{    0, -100, "Options...",             Menu_SwitchClassicOptions },
-		{    0,  -50, "Generate new level...",  Menu_SwitchClassicGenLevel },
-		{    0,    0, "Save level..",           Menu_SwitchSaveLevel },
-		{    0,   50, "Load level..",           Menu_SwitchLoadLevel },
-		{    0,  100, "Nostalgia options...",   Menu_SwitchNostalgia }
+		{    0, -100, "Awesome settings",             Menu_SwitchClassicOptions },
+		{    0,  -50, "Generate new party",  Menu_SwitchClassicGenLevel },
+		{    0,    0, "Save party",           Menu_SwitchSaveLevel },
+		{    0,   50, "Load party",           Menu_SwitchLoadLevel },
+		{    0,  100, "Change party appearance",   Menu_SwitchNostalgia }
 	};
 	s->widgets    = classicPause_widgets;
 	s->numWidgets = 0;
@@ -674,24 +674,24 @@ static struct OptionsGroupScreen {
 static struct Widget* optGroups_widgets[8 + 2];
 
 static const char* const optsGroup_descs[8] = {
-	"&eMusic/Sound, view bobbing, and more",
-	"&eGui scale, font settings, and more",
-	"&eFPS limit, view distance, entity names/shadows",
-	"&eSet key and mouse bindings",
-	"&eChat options",
-	"&eHacks allowed, jump settings, and more",
-	"&eEnv colours, water level, weather, and more",
-	"&eSettings for resembling the original classic",
+	"&eMusic in my ears and dizzy steves",
+	"&eMelting eyes",
+	"&eGraffike",
+	"&eSetup keyboard like a pro",
+	"&eHow you see the players conversatioune",
+	"&eIs this legit",
+	"&eDisco appearance",
+	"&eSettings for nostalgia",
 };
 static const struct SimpleButtonDesc optsGroup_btns[8] = {
-	{ -160, -100, "Misc options...",      Menu_SwitchMisc        },
-	{ -160,  -50, "Gui options...",       Menu_SwitchGui         },
-	{ -160,    0, "Graphics options...",  Menu_SwitchGfx         },
-	{ -160,   50, "Controls...",          SwitchBindsMain        },
-	{  160, -100, "Chat options...",      Menu_SwitchChat        },
-	{  160,  -50, "Hacks settings...",    Menu_SwitchHacks       },
-	{  160,    0, "Env settings...",      Menu_SwitchEnv         },
-	{  160,   50, "Nostalgia options...", Menu_SwitchNostalgia   }
+	{ -160, -100, "Lava",      Menu_SwitchMisc        },
+	{ -160,  -50, "Melting",       Menu_SwitchGui         },
+	{ -160,    0, "Graffik",  Menu_SwitchGfx         },
+	{ -160,   50, "Kboard setup",          SwitchBindsMain        },
+	{  160, -100, "Chattin n textin",      Menu_SwitchChat        },
+	{  160,  -50, "Legit",    Menu_SwitchHacks       },
+	{  160,    0, "Party appearanc",      Menu_SwitchEnv         },
+	{  160,   50, "Happy steves", Menu_SwitchNostalgia   }
 };
 
 static void OptionsGroupScreen_CheckHacksAllowed(void* screen) {
@@ -720,7 +720,7 @@ static void OptionsGroupScreen_ContextRecreated(void* screen) {
 	Gui_MakeBodyFont(&s->textFont);
 
 	Menu_SetButtons(s->btns, &titleFont, optsGroup_btns, 8);
-	ButtonWidget_SetConst(&s->done, "Done", &titleFont);
+	ButtonWidget_SetConst(&s->done, "I am done bro.", &titleFont);
 
 	if (s->selectedI >= 0) OptionsGroupScreen_UpdateDesc(s);
 	OptionsGroupScreen_CheckHacksAllowed(s);
@@ -801,7 +801,7 @@ static struct Widget* edithotkey_widgets[1 + 5 + 1];
 
 static void HotkeyListScreen_MakeFlags(int flags, cc_string* str);
 static void EditHotkeyScreen_MakeFlags(int flags, cc_string* str) {
-	if (flags == 0) String_AppendConst(str, " None");
+	if (flags == 0) String_AppendConst(str, " Nun");
 	HotkeyListScreen_MakeFlags(flags, str);
 }
 
@@ -810,7 +810,7 @@ static void EditHotkeyScreen_UpdateBaseKey(struct EditHotkeyScreen* s) {
 	String_InitArray(text, textBuffer);
 
 	if (s->selectedI == 0) {
-		String_AppendConst(&text, "Key: press a key..");
+		String_AppendConst(&text, "Key: PRESS THAT KEY");
 	} else {
 		String_AppendConst(&text, "Key: ");
 		String_AppendConst(&text, Input_DisplayNames[s->curHotkey.trigger]);
@@ -823,7 +823,7 @@ static void EditHotkeyScreen_UpdateModifiers(struct EditHotkeyScreen* s) {
 	String_InitArray(text, textBuffer);
 
 	if (s->selectedI == 1) {
-		String_AppendConst(&text, "Modifiers: press a key..");
+		String_AppendConst(&text, "Modifiers: CHOOSE WISELY");
 	} else {
 		String_AppendConst(&text, "Modifiers:");
 		EditHotkeyScreen_MakeFlags(s->curHotkey.mods, &text);
@@ -835,9 +835,9 @@ static void EditHotkeyScreen_UpdateLeaveOpen(struct EditHotkeyScreen* s) {
 	cc_string text; char textBuffer[STRING_SIZE];
 	String_InitArray(text, textBuffer);
 
-	String_AppendConst(&text, "Input stays open: ");
+	String_AppendConst(&text, "Input is alive: ");
 	String_AppendConst(&text, 
-		(s->curHotkey.flags & HOTKEY_FLAG_STAYS_OPEN) ? "ON" : "OFF");
+		(s->curHotkey.flags & HOTKEY_FLAG_STAYS_OPEN) ? "yee" : "no");
 	ButtonWidget_Set(&s->btns[2], &text, &s->titleFont);
 }
 
@@ -967,10 +967,10 @@ static void EditHotkeyScreen_ContextRecreated(void* screen) {
 	EditHotkeyScreen_UpdateModifiers(s);
 	EditHotkeyScreen_UpdateLeaveOpen(s);
 
-	ButtonWidget_SetConst(&s->btns[3], existed ? "Save changes" : "Add hotkey", &s->titleFont);
-	ButtonWidget_SetConst(&s->btns[4], existed ? "Remove hotkey" : "Cancel",    &s->titleFont);
+	ButtonWidget_SetConst(&s->btns[3], existed ? "Be a pro now" : "Increase social credits", &s->titleFont);
+	ButtonWidget_SetConst(&s->btns[4], existed ? "Decrease social credits" : "I give up bro",    &s->titleFont);
 	TextInputWidget_SetFont(&s->input, &s->textFont);
-	ButtonWidget_SetConst(&s->cancel, "Cancel", &s->titleFont);
+	ButtonWidget_SetConst(&s->cancel, "I really give up bro", &s->titleFont);
 }
 
 static void EditHotkeyScreen_Update(void* screen, float delta) {
@@ -1022,7 +1022,7 @@ static void EditHotkeyScreen_Init(void* screen) {
 
 	TextInputWidget_Add(s, &s->input, 500, &text, &desc);
 	AddPrimaryButton(s,    &s->cancel, Menu_SwitchHotkeys);
-	s->input.onscreenPlaceholder = "Hotkey text";
+	s->input.onscreenPlaceholder = "Pro Hotkey text";
 
 	s->maxVertices = Screen_CalcDefaultMaxVertices(s);
 }
@@ -1089,9 +1089,9 @@ static void GenLevelScreen_Gen(void* screen, const struct MapGenerator* gen) {
 	int seed   = GenLevelScreen_GetSeedInt(s, 3);
 
 	if (!World_CheckVolume(width, height, length)) {
-		Chat_AddRaw("&cThe generated map's volume is too big.");
+		Chat_AddRaw("&cBro this is too big ur pc will explode.");
 	} else if (!width || !height || !length) {
-		Chat_AddRaw("&cOne of the map dimensions is invalid.");
+		Chat_AddRaw("&cBro try another.");
 	} else {
 		Gen_Active  = gen;
 		Gen_Seed    = seed;
@@ -1178,15 +1178,15 @@ static void GenLevelScreen_ContextRecreated(void* screen) {
 	TextInputWidget_SetFont(&s->inputs[2], &s->textFont);
 	TextInputWidget_SetFont(&s->inputs[3], &s->textFont);
 
-	TextWidget_SetConst(&s->labels[0], "Width:",  &s->textFont);
-	TextWidget_SetConst(&s->labels[1], "Height:", &s->textFont);
-	TextWidget_SetConst(&s->labels[2], "Length:", &s->textFont);
-	TextWidget_SetConst(&s->labels[3], "Seed:",   &s->textFont);
+	TextWidget_SetConst(&s->labels[0], "Wdiht:",  &s->textFont);
+	TextWidget_SetConst(&s->labels[1], "Hiegth:", &s->textFont);
+	TextWidget_SetConst(&s->labels[2], "Lneght:", &s->textFont);
+	TextWidget_SetConst(&s->labels[3], "Seeb:",   &s->textFont);
 	
-	TextWidget_SetConst(&s->title,       "Generate new level", &s->textFont);
-	ButtonWidget_SetConst(&s->flatgrass, "Flatgrass",          &titleFont);
-	ButtonWidget_SetConst(&s->vanilla,   "Vanilla",            &titleFont);
-	ButtonWidget_SetConst(&s->cancel,    "Cancel",             &titleFont);
+	TextWidget_SetConst(&s->title,       "Create", &s->textFont);
+	ButtonWidget_SetConst(&s->flatgrass, "gm_flat",          &titleFont);
+	ButtonWidget_SetConst(&s->vanilla,   "notchy_gen",            &titleFont);
+	ButtonWidget_SetConst(&s->cancel,    "I refuse",             &titleFont);
 	Font_Free(&titleFont);
 }
 
@@ -1284,12 +1284,12 @@ static void ClassicGenScreen_ContextRecreated(void* screen) {
 
 	Screen_UpdateVb(screen);
 	Gui_MakeTitleFont(&titleFont);
-	TextWidget_SetConst(&s->title, "Generate new level", &titleFont);
+	TextWidget_SetConst(&s->title, "You are currenlty creating a new party :D", &titleFont);
 
-	ButtonWidget_SetConst(&s->btns[0], "Small",  &titleFont);
-	ButtonWidget_SetConst(&s->btns[1], "Normal", &titleFont);
-	ButtonWidget_SetConst(&s->btns[2], "Huge",   &titleFont);
-	ButtonWidget_SetConst(&s->cancel,  "Cancel", &titleFont);
+	ButtonWidget_SetConst(&s->btns[0], "Smol",  &titleFont);
+	ButtonWidget_SetConst(&s->btns[1], "Decent", &titleFont);
+	ButtonWidget_SetConst(&s->btns[2], "Explosive pc",   &titleFont);
+	ButtonWidget_SetConst(&s->cancel,  "I refuse :-(", &titleFont);
 	Font_Free(&titleFont);
 }
 
@@ -1349,7 +1349,7 @@ static struct Widget* save_widgets[3 + 1 + 1];
 
 static void SaveLevelScreen_UpdateSave(struct SaveLevelScreen* s) {
 	ButtonWidget_SetConst(&s->save, 
-		s->save.optName ? "&cOverwrite existing?" : "Save", &s->titleFont);
+		s->save.optName ? "&cExplode?" : "Yes", &s->titleFont);
 }
 
 static void SaveLevelScreen_RemoveOverwrites(struct SaveLevelScreen* s) {
@@ -1418,7 +1418,7 @@ static void SaveLevelScreen_Save(void* screen, void* widget) {
 	cc_result res;
 
 	if (!file.length) {
-		TextWidget_SetConst(&s->desc, "&ePlease enter a filename", &s->textFont);
+		TextWidget_SetConst(&s->desc, "&ePlease name ur party", &s->textFont);
 		return;
 	}
 
@@ -1435,14 +1435,14 @@ static void SaveLevelScreen_Save(void* screen, void* widget) {
 		
 	SaveLevelScreen_RemoveOverwrites(s);
 	if ((res = SaveLevelScreen_SaveMap(&path))) return;
-	Chat_Add1("&eSaved map to: %s", &path);
+	Chat_Add1("&eSaved your awesome mario pixel art to: %s", &path);
 	CPE_SendNotifyAction(NOTIFY_ACTION_LEVEL_SAVED, 0);
 }
 
 static void SaveLevelScreen_UploadCallback(const cc_string* path) {
 	cc_result res = SaveLevelScreen_SaveMap(path);
 	if (!res) {
-		Chat_Add1("&eSaved map to: %s", path);
+		Chat_Add1("&eSaved your awesome house to: %s", path);
 		CPE_SendNotifyAction(NOTIFY_ACTION_LEVEL_SAVED, 0);
 	}
 }
@@ -1465,7 +1465,7 @@ static void SaveLevelScreen_File(void* screen, void* b) {
 
 	res = Window_SaveFileDialog(&args);
 	if (res == SFD_ERR_NEED_DEFAULT_NAME) {
-		TextWidget_SetConst(&s->desc, "&ePlease enter a filename", &s->textFont);
+		TextWidget_SetConst(&s->desc, "&ePlease name your house", &s->textFont);
 	} else if (res) {
 		Logger_SimpleWarn(res, "showing save file dialog");
 	}
@@ -1514,11 +1514,11 @@ static void SaveLevelScreen_ContextRecreated(void* screen) {
 	SaveLevelScreen_UpdateSave(s);
 
 	TextInputWidget_SetFont(&s->input,                &s->textFont);
-	ButtonWidget_SetConst(&s->cancel, "Cancel",       &s->titleFont);
+	ButtonWidget_SetConst(&s->cancel, "I give up",       &s->titleFont);
 #ifdef CC_BUILD_WEB
-	ButtonWidget_SetConst(&s->file,   "Download",     &s->titleFont);
+	ButtonWidget_SetConst(&s->file,   "downlodin",     &s->titleFont);
 #else
-	ButtonWidget_SetConst(&s->file,   "Save file...", &s->titleFont);
+	ButtonWidget_SetConst(&s->file,   "Save", &s->titleFont);
 #endif
 }
 
@@ -1554,7 +1554,7 @@ static void SaveLevelScreen_Init(void* screen) {
 	Menu_SelectWidget((struct Screen*)s, 3); /* s->input */
 
 	TextWidget_Add(s, &s->desc);
-	s->input.onscreenPlaceholder = "Map name";
+	s->input.onscreenPlaceholder = "Here is a map name placeholder :P";
 
 	s->maxVertices = Screen_CalcDefaultMaxVertices(s);
 }
@@ -1593,7 +1593,7 @@ static void TexturePackScreen_EntryClick(void* screen, void* widget) {
 
 	/* FileNotFound error may be because user deleted .zips from disc */
 	if (res != ReturnCode_FileNotFound) return;
-	Chat_AddRaw("&eReloading texture pack list as it may be out of date");
+	Chat_AddRaw("&eReloading just in case if ancient files");
 	ListScreen_Reload(s);
 }
 
@@ -1644,11 +1644,11 @@ static void TexturePackScreen_ActionFunc(void* s, void* w) {
 
 void TexturePackScreen_Show(void) {
 	struct ListScreen* s = &ListScreen;
-	s->titleText   = "Select a texture pack";
+	s->titleText   = "Select an awesome imagery";
 #ifdef CC_BUILD_WEB
 	s->actionText = "Upload";
 #else
-	s->actionText = "Load file...";
+	s->actionText = "Load";
 #endif
 
 	s->ActionClick = TexturePackScreen_ActionFunc;
@@ -1695,7 +1695,7 @@ static void FontListScreen_LoadEntries(struct ListScreen* s) {
 }
 
 static void FontListScreen_RegisterCallback(const cc_string* path) {
-	Chat_Add1("Loaded font from %s", path);
+	Chat_Add1("Loaded crazy hieroglyphics from %s", path);
 }
 
 static void FontListScreen_UploadCallback(const cc_string* path) { 
@@ -1724,8 +1724,8 @@ static void FontListScreen_ActionFunc(void* s, void* w) {
 
 void FontListScreen_Show(void) {
 	struct ListScreen* s = &ListScreen;
-	s->titleText   = "Select a font";
-	s->actionText  = "Load font...";
+	s->titleText   = "Select ya crazy hieroglyphics";
+	s->actionText  = "Load hieroglyphics";
 	s->ActionClick = FontListScreen_ActionFunc;
 
 	s->LoadEntries = FontListScreen_LoadEntries;
