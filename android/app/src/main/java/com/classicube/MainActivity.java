@@ -880,6 +880,10 @@ public class MainActivity extends Activity
 	}
 
 	String saveContentToTemp(Uri uri, String folder, String name) throws IOException {
+		// Validate that the file name does not contain path traversal or separators
+		if (name == null || name.contains("..") || name.contains("/") || name.contains("\\")) {
+			throw new IllegalArgumentException("Invalid file name");
+		}
 		//File file = new File(getExternalFilesDir(null), folder + "/" + name);
 		File file = new File(getGameDataDirectory() + "/" + folder + "/" + name);
 		file.getParentFile().mkdirs();
