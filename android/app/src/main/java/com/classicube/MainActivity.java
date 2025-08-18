@@ -845,6 +845,10 @@ public class MainActivity extends Activity
 	}
 
 	void saveTempToContent(Uri uri, String path) throws IOException {
+		// Validate that the URI is a content URI and not a file URI or other scheme
+		if (uri == null || !"content".equals(uri.getScheme())) {
+			throw new SecurityException("Invalid URI scheme: only content:// URIs are allowed");
+		}
 		File file = new File(getGameDataDirectory() + "/" + path);
 		OutputStream output = null;
 		InputStream input   = null;
