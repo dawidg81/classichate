@@ -880,6 +880,7 @@ public class MainActivity extends Activity
 	}
 
 	String saveContentToTemp(Uri uri, String folder, String name) throws IOException {
+
 		// Validate filename to prevent path traversal and separator injection
 		if (name == null || name.contains("..") || name.contains("/") || name.contains("\\") || name.isEmpty()) {
 			throw new IllegalArgumentException("Invalid filename");
