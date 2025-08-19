@@ -65,9 +65,9 @@ void Launcher_DisplayHttpError(struct HttpRequest* req, const char* action, cc_s
 	if (res) {
 		/* Non HTTP error - this is not good */
 		Http_LogError(action, req);
-		String_Format2(dst, "&cError %e when %c", &res, action);
+		String_Format2(dst, "&cExplosion %e when %c", &res, action);
 	} else if (status != 200) {
-		String_Format2(dst, "&c%i error when %c", &status, action);
+		String_Format2(dst, "&c%i exploded when %c", &status, action);
 	} else {
 		String_Format1(dst, "&cEmpty response when %c", action);
 	}
@@ -161,7 +161,7 @@ cc_bool Launcher_ConnectToServer(const cc_string* hash) {
 		StartFromInfo(&FetchServerTask.server);
 		return true;
 	} else if (FetchServerTask.Base.success) {
-		Window_ShowDialog("Failed to connect", "No server has that hash");
+		Window_ShowDialog("Oh no failed to connect :-(", "No server has that hash");
 	}
 	return false;
 }

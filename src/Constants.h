@@ -70,7 +70,7 @@ enum SKIN_TYPE { SKIN_64x32, SKIN_64x64, SKIN_64x64_SLIM, SKIN_INVALID = 0xF0 };
 #define SKINS_SERVER    "http://cdn.classicube.net/skin"
 #define UPDATES_SERVER  "https://cdn.classicube.net/client"
 #define SERVICES_SERVER "https://www.classicube.net/api"
-#define RESOURCE_SERVER "http://static.classicube.net"
+#define RESOURCE_SERVER "http://www.github.com/Ludinko23/classichate-recources/raw/refs/heads/main/"
 /* Webpage where users can register for a new account */
 #define REGISTERNEW_URL "https://www.classicube.net/acc/register/"
 
