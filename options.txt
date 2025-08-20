@@ -1,22 +1,22 @@
 defaulttexpack=classicube.zip
-anaglyph-3d=False
-viewdist=512
-camera-smooth=False
-mousesensitivity=30
-launcher-server=Ludinko23's Server (PARTY!! 110th Day Anniversary!) (map: city)
+launcher-cc-username=dawidg81
+launcher-cc-password=kxgKcU/Oglpxypi7obaKBc4+omwZsQhFJfP/FTyIr5w=
+launcher-session=kxgKcU/OglriTwKnsQUrzk9J9SBAQ3r39Sz8MJKHHdWk9k7LxA2SHgndogmHeQVFi/Epv+YevBCl2+Gi3fqxU8baeMep2ayu/ZbLAWLcWHvgFRmtFgbotEIVWyMQv/kDGydW2zuYn46lr56gEn0J98N/na7R939hA498TKdd7o+NS4BoCcXONLcEXmPEiWnQn5U+k5VdJEHpDSJJULM2OHCQskGOlaCA8ZCUWSaO6JRHg5sEAGHxDGvmcM+cPFALFXbhwpaw6L4QhNqIBEEoyJMv+9bQAFVwriDPa53UHnIwfhhVXerhFsUOQ5dpP9IDxvvgNkWxVX6dPmH2uEoAUg==
+launcher-server=A MCGalaxy Server
 launcher-username=dawidg81
-launcher-ip=78.99.251.58
-launcher-port=30506
-launcher-mppass=kxgKcU/Oglq4chxQGKSuQrDSDALLjAaskw7fKDWPM6aXBofEqfmIYDVZWK4Z8l8Z
+launcher-ip=51.222.156.179
+launcher-port=25565
+launcher-mppass=kxgKcU/Oglq4chxQGKSuQkA1LuZbLMjAmYKT12cXsVLzEiE5/m+w0UieK6jeBhwL
 mode-classic=False
 nostalgia-customblocks=True
 nostalgia-usecpe=True
 nostalgia-servertextures=True
 nostalgia-classictablist=False
 nostalgia-classicoptions=False
-launcher-cc-username=dawidg81
-launcher-cc-password=kxgKcU/Oglpxypi7obaKBc4+omwZsQhFJfP/FTyIr5w=
-launcher-session=kxgKcU/OglriTwKnsQUrzq4SSoubW9eARjFosfaE+VNg/3rnj8HjABV2Wr12qR/TmhiQW0uZJ2/xRRESFRd9UEImQ6xMs3AfQiOIXrHnGTvkO1vT9vFpdpCyOI5DAekAEmhrb9ppB/GPaVR0k9L9SPnV+/HGJDBsD8vNAxvdNa3FAYA+KQsG7/oVkeplL98Pistt2vrB78gLYgAhPjZMLUmnBq0Aa3WJhrkoJZJhEH/kv4MvCgQCzAq2rREjb784ntJo2JHViO8kPf4K4rgtLrSZcy1a2wncHVi10lY6YROrSEM4qTUPaPfgLTC7NRT/AlfrarkeXlKfeitrBvAH+w==
+anaglyph-3d=False
+viewdist=512
+camera-smooth=False
+mousesensitivity=30
 gfx-lightingmode=Classic
 gfx-mipmaps=False
 namesmode=AllHovered
