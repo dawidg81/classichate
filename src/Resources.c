@@ -685,7 +685,7 @@ static const struct AssetSet mccSoundAssetSet = {
 /*########################################################################################################################*
 *------------------------------------------------------CC texture assets--------------------------------------------------*
 *#########################################################################################################################*/
-static const cc_string ccTexPack = String_FromConst("texpacks/classicube.zip");
+static const cc_string ccTexPack = String_FromConst("texpacks/classichate.zip");
 static cc_bool ccTexturesExist, ccTexturesDownloaded;
 static int ccTexturesReqID;
 
