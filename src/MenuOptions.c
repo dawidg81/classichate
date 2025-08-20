@@ -777,7 +777,7 @@ static void GraphicsOptionsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 			"&eNoLimit: &fIt will overuse your CPU, sir.\n" \
 			"&cI have no clue who put that noLimit option it is pointless unless you want to flex your super duper 1000 fps on nvidia rtx 3328ti");
 		MenuOptionsScreen_AddInt(s, "Heorbrine distance",
-			8, 4096, 512,
+			8, 8192, 512,
 			GrO_GetViewDist,   GrO_SetViewDist, NULL);
 		MenuOptionsScreen_AddBool(s, "Realistic shadows",
 			GrO_GetSmooth,     GrO_SetSmooth,
@@ -1061,7 +1061,7 @@ static void HacksSettingsScreen_InitWidgets(struct MenuOptionsScreen* s) {
 		MenuOptionsScreen_AddBool(s, "Hackin cheatin enabl",
 			HS_GetHacks,    HS_SetHacks, NULL);
 		MenuOptionsScreen_AddNum(s,  "Speedy amount", 
-			0.1f,   50, 10,
+			0.1f,   65535, 10,
 			HS_GetSpeed,    HS_SetSpeed, NULL);
 		MenuOptionsScreen_AddBool(s, "Cam cli[",
 			HS_GetClipping, HS_SetClipping,

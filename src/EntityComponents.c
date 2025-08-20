@@ -144,7 +144,7 @@ static void HacksComp_SetAll(struct HacksComp* hacks, cc_bool allowed) {
 void HacksComp_Init(struct HacksComp* hacks) {
 	Mem_Set(hacks, 0, sizeof(struct HacksComp));
 	HacksComp_SetAll(hacks, true);
-	hacks->SpeedMultiplier = 10.0f;
+	hacks->SpeedMultiplier = 15.0f;
 	hacks->Enabled = true;
 	hacks->IsOp           = true;
 	hacks->CanSeeAllNames = true;
