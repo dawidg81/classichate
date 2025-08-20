@@ -68,12 +68,17 @@ ifeq ($(PLAT),web)
 endif
 
 ifeq ($(PLAT),mingw)
-	CC      =  gcc
-	OEXT    =  .exe
-	CFLAGS  += -DUNICODE
-	LDFLAGS =  -g
-	LIBS    =  -mwindows -lwinmm
-	BUILD_DIR = build/win
+    CC      = gcc
+    OEXT    = .exe
+    CFLAGS  += -DUNICODE
+    LDFLAGS = -g
+    LIBS    = -mwindows -lwinmm
+    BUILD_DIR = build/win
+
+    # Keep only the Windows window backend
+    C_SOURCES := $(filter-out $(SOURCE_DIR)/Window_X11.c \
+                              $(SOURCE_DIR)/Window_cocoa.c \
+                              $(SOURCE_DIR)/Window_BeOS.c, $(C_SOURCES))
 endif
 
 ifeq ($(PLAT),linux)
@@ -94,11 +99,16 @@ ifeq ($(PLAT),hp-ux)
 endif
 
 ifeq ($(PLAT),darwin)
-	OBJECTS += $(BUILD_DIR)/src/Window_cocoa.o
-	LIBS    =
-	LDFLAGS =  -rdynamic -framework Cocoa -framework OpenGL -framework IOKit -lobjc
-	BUILD_DIR = build/macos
-	TARGET  = $(ENAME).app
+    OBJECTS += $(BUILD_DIR)/src/Window_cocoa.o
+    LIBS    =
+    LDFLAGS = -rdynamic -framework Cocoa -framework OpenGL -framework IOKit -lobjc
+    BUILD_DIR = build/macos
+    TARGET  = $(ENAME).app
+
+    # Keep only the Cocoa backend
+    C_SOURCES := $(filter-out $(SOURCE_DIR)/Window_WIN.c \
+                              $(SOURCE_DIR)/Window_X11.c \
+                              $(SOURCE_DIR)/Window_BeOS.c, $(C_SOURCES))
 endif
 
 ifeq ($(PLAT),freebsd)
@@ -129,13 +139,19 @@ ifeq ($(PLAT),dragonfly)
 	BUILD_DIR = build/flybsd
 endif
 
+
 ifeq ($(PLAT),haiku)
-	OBJECTS += $(BUILD_DIR)/src/Platform_BeOS.o $(BUILD_DIR)/src/Window_BeOS.o
-	CFLAGS  = -pipe -fno-math-errno
-	LDFLAGS = -g
-	LINK    = $(CXX)
-	LIBS    = -lGL -lnetwork -lbe -lgame -ltracker
-	BUILD_DIR = build/haiku
+    OBJECTS += $(BUILD_DIR)/src/Platform_BeOS.o $(BUILD_DIR)/src/Window_BeOS.o
+    CFLAGS  = -pipe -fno-math-errno
+    LDFLAGS = -g
+    LINK    = $(CXX)
+    LIBS    = -lGL -lnetwork -lbe -lgame -ltracker
+    BUILD_DIR = build/haiku
+
+    # Keep only the BeOS/Haiku backend
+    C_SOURCES := $(filter-out $(SOURCE_DIR)/Window_WIN.c \
+                              $(SOURCE_DIR)/Window_X11.c \
+                              $(SOURCE_DIR)/Window_cocoa.c, $(C_SOURCES))
 endif
 
 ifeq ($(PLAT),beos)
