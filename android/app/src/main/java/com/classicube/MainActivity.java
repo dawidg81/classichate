@@ -16,6 +16,8 @@ import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -887,6 +889,15 @@ public class MainActivity extends Activity
 		//File file = new File(getExternalFilesDir(null), folder + "/" + name);
 		File file = new File(getGameDataDirectory() + "/" + folder + "/" + name);
 		file.getParentFile().mkdirs();
+
+		// Validate the URI to prevent access to private directories
+		String path = uri.getPath();
+		if (path != null) {
+			Path normalized = FileSystems.getDefault().getPath(path).normalize();
+			if (normalized.startsWith("/data")) {
+				throw new SecurityException("Access to private directories is not allowed");
+			}
+		}
 
 		OutputStream output = null;
 		InputStream input   = null;
