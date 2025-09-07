@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  # CMake
+  - package-ecosystem: "cmake"
+    directory: "/android/app"
+    schedule:
+      interval: "weekly"
+  # Makefile (nur Github's eigene Überwachung, keine Paketupdates)
+  - package-ecosystem: "make"
+    directory: "/"
+    schedule:
+      interval: "weekly"
