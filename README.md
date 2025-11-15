@@ -40,21 +40,24 @@ Dependencies
 ```sudo apt install git cmake ninja-build openjdk-11-jdk build-essential```
 
 Android NDK
-
-```mkdir -p ~/Android```
-```cd ~/Android```
-```wget https://dl.google.com/android/repository/android-ndk-r25b-linux.zip```
-```unzip android-ndk-r25b-linux.zip```
-
+```
+mkdir -p ~/Android
+cd ~/Android
+wget https://dl.google.com/android/repository/android-ndk-r25b-linux.zip
+unzip android-ndk-r25b-linux.zip
+```
 Android SDK
-
-```cd ~/Android```
-```wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip```
-```mkdir -p sdk/cmdline-tools```
-```unzip commandlinetools-linux-9477386_latest.zip -d sdk/cmdline-tools/latest```
+```
+cd ~/Android
+wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip
+mkdir -p sdk/cmdline-tools
+unzip commandlinetools-linux-9477386_latest.zip -d sdk/cmdline-tools/latest
+```
 To set enviroment variables
-```export ANDROID_NDK_HOME=~/Android/ndk/android-ndk-r23```
-```export PATH=$ANDROID_NDK_HOME:$PATH```
+```
+export ANDROID_NDK_HOME=~/Android/ndk/android-ndk-r23
+export PATH=$ANDROID_NDK_HOME:$PATH
+```
 *may not be 100% accurate sorry guys.*
 
 
