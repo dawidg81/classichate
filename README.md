@@ -36,9 +36,9 @@ cd android
 ./gradlew
 ```
 Dependencies
-
-```sudo apt install git cmake ninja-build openjdk-11-jdk build-essential```
-
+```
+sudo apt install git cmake ninja-build openjdk-11-jdk build-essential
+```
 Android NDK
 ```
 mkdir -p ~/Android
