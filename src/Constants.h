@@ -10,12 +10,12 @@ Copyright 2014-2025 ClassiCube | Licensed under BSD-3
 #define GAME_API_VER 1
 
 #if defined CC_BUILD_WEB
-#define GAME_APP_ALT   "Classic%cHATE%e v2 Web Mobile"
-#define GAME_APP_NAME  "Classic%cHATE%e v2 Web"
-#define GAME_APP_TITLE "ClassicHATE v2"
+#define GAME_APP_ALT   "Classic%cHATE%e v2.1 Web Mobile"
+#define GAME_APP_NAME  "Classic%cHATE%e v2.1 Web"
+#define GAME_APP_TITLE "ClassicHATE v2.1"
 #else
-#define GAME_APP_NAME  "Classic%cHATE%e v2"
-#define GAME_APP_TITLE "ClassicHATE v2"
+#define GAME_APP_NAME  "Classic%cHATE%e v2.1"
+#define GAME_APP_TITLE "ClassicHATE v2.1"
 #endif
 
 /* Max number of characters strings can have. */
@@ -70,10 +70,11 @@ enum SKIN_TYPE { SKIN_64x32, SKIN_64x64, SKIN_64x64_SLIM, SKIN_INVALID = 0xF0 };
 #define SKINS_SERVER    "http://cdn.classicube.net/skin"
 #define UPDATES_SERVER  "https://cdn.classicube.net/client"
 #define SERVICES_SERVER "https://www.classicube.net/api"
-#define RESOURCE_SERVER "https://github.com/Ludinko23/classichate-recources/blob/main"
+#define RESOURCE_SERVER "http://static.classicube.net"
 /* Webpage where users can register for a new account */
 #define REGISTERNEW_URL "https://www.classicube.net/acc/register/"
 
 #define DEFAULT_USERNAME "Singleplayer"
 #endif
+
 
