@@ -39,10 +39,10 @@ static PackedCol Entity_GetColor(struct Entity* e) {
 
 void Entity_Init(struct Entity* e) {
 	static const cc_string model = String_FromConst("humanoid");
-	Vec3_Set(e->ModelScale, 2,2,2);
+	Vec3_Set(e->ModelScale, 0,0,0);
 	e->Flags      = ENTITY_FLAG_HAS_MODELVB;
-	e->uScale     = 2.0f;
-	e->vScale     = 2.0f;
+	e->uScale     = 0.0f;
+	e->vScale     = 0.0f;
 	e->PushStrength = 0.0f;
 	e->_skinReqID = 0;
 	e->SkinRaw[0] = '\0';
@@ -1168,3 +1168,4 @@ struct IGameComponent Entities_Component = {
 	LocalPlayers_Reset,    /* Reset */
 	LocalPlayers_OnNewMap, /* OnNewMap */
 };
+
