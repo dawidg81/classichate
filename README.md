@@ -1,3 +1,4 @@
+This is OutDated! look here for the new classichate: https://github.com/Ludinko23/classichate
 ClassicHate is a Classic Minecraft-like custom client compatible with CSP and CPE. The code is from ClassiCube and will be changed and customized in the future.
 
 Idea by Ludinko23
@@ -13,7 +14,7 @@ Dependencies
 sudo apt install build-essential libx11-dev libxi-dev libgl1-mesa-dev libopenal-dev libcurl4-openssl-dev
 ```
 
-How to build for Windows:
+How to build for Bindoj:
 ```
 make mingw CC=i686-w64-mingw32-gcc CXX=i686-w64-mingw32-g++
 ```
@@ -22,7 +23,7 @@ You will need MinGw32
 sudo apt install gcc-mingw-w64-i686 g++-mingw-w64-i686
 ```
 
-How to build for Windows 64 bit
+How to build for Bindoj 64 bit
 ```
 make mingw CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++
 ```
